@@ -45,8 +45,8 @@ const std::string CLIENT_NAME("TDC Core");
 //! git will put "#define GIT_ARCHIVE 1" on the next line inside archives.
 #define GIT_ARCHIVE 1
 #ifdef GIT_ARCHIVE
-#define GIT_COMMIT_ID "gtlb549"
-#define GIT_COMMIT_DATE "Wed, 9 Jan 2018 11:51:17 -0500"
+#define GIT_COMMIT_ID "cmnt4y72"
+#define GIT_COMMIT_DATE "Wed, 12 June 2019 10:43:17 -0500"
 #endif
 
 #define BUILD_DESC_WITH_SUFFIX(maj, min, rev, build, suffix) \
