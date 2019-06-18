@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=TDC
+Comment=TDC P2P Cryptocurrency
+Comment[fr]=TDC, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=TDC, eşten eşe kriptografik sanal para birimi
+Exec=tdc-qt %u
+Terminal=false
+Type=Application
+Icon=tdc128
+MimeType=x-scheme-handler/tdc;
+Categories=Office;Finance;

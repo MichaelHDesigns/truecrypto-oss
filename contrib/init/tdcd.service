@@ -1,0 +1,26 @@
+[Unit]
+Description=TDC's distributed currency daemon
+After=network.target
+
+[Service]
+User=tdc
+Group=tdc
+
+Type=forking
+PIDFile=/var/lib/tdcd/tdcd.pid
+
+ExecStart=/usr/bin/tdcd -daemon -pid=/var/lib/tdcd/tdcd.pid \
+          -conf=/etc/tdc/tdc.conf -datadir=/var/lib/tdcd
+
+ExecStop=-/usr/bin/tdc-cli -conf=/etc/tdc/tdc.conf \
+         -datadir=/var/lib/tdcd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

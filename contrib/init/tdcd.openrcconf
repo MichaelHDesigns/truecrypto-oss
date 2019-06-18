@@ -1,0 +1,26 @@
+# /etc/conf.d/tdcd: config file for /etc/init.d/tdcd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/tdc/tdc.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/tdcd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/tdcd.pid"
+
+# Where to write tdcd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/tdcd"
+
+# User and group to own tdcd process
+#BITCOIND_USER="tdc"
+#BITCOIND_GROUP="tdc"
+
+# Path to tdcd executable
+#BITCOIND_BIN="/usr/bin/tdcd"
+
+# Nice value to run tdcd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
