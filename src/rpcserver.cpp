@@ -301,14 +301,14 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* TDC features */
-        {"tdc", "masternode", &masternode, true, true, false},
-        {"tdc", "masternodelist", &masternodelist, true, true, false},
-        {"tdc", "mnbudget", &mnbudget, true, true, false},
-        {"tdc", "mnbudgetvoteraw", &mnbudgetvoteraw, true, true, false},
-        {"tdc", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"tdc", "mnsync", &mnsync, true, true, false},
-        {"tdc", "spork", &spork, true, true, false},
+        /* Masternode features */
+        {"masternode", "masternode", &masternode, true, true, false},
+        {"masternode", "masternodelist", &masternodelist, true, true, false},
+        //{"masternode", "mnbudget", &mnbudget, true, true, false}, 
+        //{"masternode", "mnbudgetvoteraw", &mnbudgetvoteraw, true, true, false},
+        //{"masternode", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"masternode", "mnsync", &mnsync, true, true, false},
+        //{"masternode", "spork", &spork, true, true, false},
 #ifdef ENABLE_WALLET
 
         /* Wallet */
