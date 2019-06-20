@@ -36,7 +36,7 @@ public:
     CBaseTestNetParams()
     {
         networkID = CBaseChainParams::TESTNET;
-        nRPCPort = 18937;
+        nRPCPort = 18937; //TODO: see if this can be corrected without forking
         strDataDir = "testnet4";
     }
 };
