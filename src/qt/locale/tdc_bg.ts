@@ -231,7 +231,7 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>TDC Core</source>
+        <source>True Crypto OSS</source>
         <translation>TDC Ядро</translation>
     </message>
     <message>
@@ -283,12 +283,12 @@
         <translation>Изход от приложението</translation>
     </message>
     <message>
-        <source>&amp;About TDC Core</source>
+        <source>&amp;About True Crypto OSS</source>
         <translation>&amp;За TDC ядрото</translation>
     </message>
     <message>
-        <source>Show information about TDC Core</source>
-        <translation>Покаци информация за TDC Core</translation>
+        <source>Show information about True Crypto OSS</source>
+        <translation>Покаци информация за True Crypto OSS</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -451,8 +451,8 @@
         <translation>&amp;Опции на командния ред</translation>
     </message>
     <message>
-        <source>TDC Core client</source>
-        <translation>TDC Core клиент</translation>
+        <source>True Crypto OSS client</source>
+        <translation>True Crypto OSS клиент</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,7 +463,7 @@
         <translation>Синхронизиране на допълнителни данни: %p%</translation>
     </message>
     <message>
-        <source>Show the TDC Core help message to get a list with possible TDC command-line options</source>
+        <source>Show the True Crypto OSS help message to get a list with possible TDC command-line options</source>
         <translation>Покажи съобщението за помощ на TDC ядрото за да получиш списък на възможните опции за командния ред</translation>
     </message>
     <message>
@@ -989,7 +989,7 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>TDC Core</source>
+        <source>True Crypto OSS</source>
         <translation>TDC ядро</translation>
     </message>
     <message>
@@ -1001,7 +1001,7 @@ Address: %4
         <translation>(%1-битов)</translation>
     </message>
     <message>
-        <source>About TDC Core</source>
+        <source>About True Crypto OSS</source>
         <translation>За TDC ядрото</translation>
     </message>
     <message>
@@ -1048,15 +1048,15 @@ Address: %4
         <translation>Добре дошли</translation>
     </message>
     <message>
-        <source>Welcome to TDC Core.</source>
+        <source>Welcome to True Crypto OSS.</source>
         <translation>Добре дошли в ядрото на TDC.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where TDC Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where True Crypto OSS will store its data.</source>
         <translation>Тъй като програмата се стартира за първи път вие може да изберете къде TDC да съхранява своята информация.</translation>
     </message>
     <message>
-        <source>TDC Core will download and store a copy of the TDC block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>True Crypto OSS will download and store a copy of the TDC block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>TDC ще свали и съхрани копие на TDC регистъра на блокове. Информацията ще заеме поне %1ГБ  пространство и ще нараства с времето. В тази папка ще бъде съхранен и портфейла. </translation>
     </message>
     <message>
@@ -1068,7 +1068,7 @@ Address: %4
         <translation>Определете папка по ваш избор:</translation>
     </message>
     <message>
-        <source>TDC Core</source>
+        <source>True Crypto OSS</source>
         <translation>TDC ядро</translation>
     </message>
     <message>
@@ -1260,12 +1260,6 @@ Address: %4
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting TDC.</source>
         <translation>Тук можете да промените езика на потребителския изглед. Настройката ще влезе в сила след рестартиране на TDC.</translation>
-    </message>
-    <message>
-        <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</source>
-        <translation>Липсва език или превода е непълен? Можете да помогнете с превода тук:
-https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -2586,7 +2580,7 @@ https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>TDC Core is shutting down...</source>
+        <source>True Crypto OSS is shutting down...</source>
         <translation>TDC ядрото се изключва...</translation>
     </message>
     <message>
@@ -2736,7 +2730,7 @@ https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>TDC Core</source>
+        <source>True Crypto OSS</source>
         <translation>TDC Ядро</translation>
     </message>
     <message>
@@ -2748,7 +2742,7 @@ https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
         <translation>Водещи Bitcoin разработчици</translation>
     </message>
     <message>
-        <source>The TDC Core developers</source>
+        <source>The True Crypto OSS developers</source>
         <translation>Водещи TDC разработчици</translation>
     </message>
     <message>
@@ -3326,7 +3320,7 @@ https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
         <translation>Свързва се с посочения адрес и винаги слуша за него. Използвайте [хост]:порт за изписване при IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. TDC Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. True Crypto OSS is probably already running.</source>
         <translation>Не може да се заключи дата директорията %s. TDC ядрото вече работи.</translation>
     </message>
     <message>
@@ -3382,7 +3376,7 @@ https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
         <translation>Това е предварителна тест версия - използвайте я на ваша отговорност - не използвайте за копане или за търговски приложения.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. TDC Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. True Crypto OSS is probably already running.</source>
         <translation>Не може да се свърже с %s на този компютър. TDC ядрото най-вероятно вече работи.</translation>
     </message>
     <message>
@@ -3737,8 +3731,8 @@ for example: alertnotify=echo %%s | mail -s "TDC Alert" admin@foo.com
         <translation>Внимание: -maxtxfee  е с много голяма зададена стойност! Това е транзакционната такса, която ще платите ако направите единична транзакция.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong TDC Core will not work properly.</source>
-        <translation>Внимание: Моля проверете дали датата и часът на вашият компютър са верни! Ако часовникът ви не е сверен, TDC Core няма да работи правилно.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong True Crypto OSS will not work properly.</source>
+        <translation>Внимание: Моля проверете дали датата и часът на вашият компютър са верни! Ако часовникът ви не е сверен, True Crypto OSS няма да работи правилно.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3791,8 +3785,8 @@ for example: alertnotify=echo %%s | mail -s "TDC Alert" admin@foo.com
         <translation>Запазени права (C) 2009-%i Bitcoin Core разработчици</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The TDC Core Developers</source>
-        <translation>Запазени права (C) 2014-%i TDC Core разработчиците</translation>
+        <source>Copyright (C) 2014-%i The True Crypto OSS Developers</source>
+        <translation>Запазени права (C) 2014-%i True Crypto OSS разработчиците</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3823,8 +3817,8 @@ for example: alertnotify=echo %%s | mail -s "TDC Alert" admin@foo.com
         <translation>Грешка при свързване с Masternode.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of TDC Core</source>
-        <translation>Грешка при зареждане на wallet.dat: портфейлът изисква по-нова версия на TDC Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of True Crypto OSS</source>
+        <translation>Грешка при зареждане на wallet.dat: портфейлът изисква по-нова версия на True Crypto OSS</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3895,7 +3889,7 @@ for example: alertnotify=echo %%s | mail -s "TDC Alert" admin@foo.com
         <translation>Информация</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. TDC Core is shutting down.</source>
+        <source>Initialization sanity check failed. True Crypto OSS is shutting down.</source>
         <translation>Инициализационната проверка не успешна. TDC ядрото се изключва.</translation>
     </message>
     <message>
@@ -4147,7 +4141,7 @@ for example: alertnotify=echo %%s | mail -s "TDC Alert" admin@foo.com
         <translation>Използвай UPnP за определяне на порта за слушане (по подразбиране: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart TDC Core to complete</source>
+        <source>Wallet needed to be rewritten: restart True Crypto OSS to complete</source>
         <translation>Портфейлът трябва да бъде презаписан: рестартирайте TDC за да завършите</translation>
     </message>
     <message>

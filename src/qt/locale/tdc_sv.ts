@@ -219,8 +219,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>TDC Core</source>
-        <translation>TDC Core
+        <source>True Crypto OSS</source>
+        <translation>True Crypto OSS
 </translation>
     </message>
     <message>
@@ -272,8 +272,8 @@
         <translation>Avsluta applikationen</translation>
     </message>
     <message>
-        <source>&amp;About TDC Core</source>
-        <translation>&amp;Om TDC Core</translation>
+        <source>&amp;About True Crypto OSS</source>
+        <translation>&amp;Om True Crypto OSS</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -412,8 +412,8 @@
         <translation>&amp;Kommandoradalternativ</translation>
     </message>
     <message>
-        <source>Show the TDC Core help message to get a list with possible TDC command-line options</source>
-        <translation>Visa TDC Core-hjälpmeddelandet för att få en lista med möjliga TDC-kommandoradalternativ</translation>
+        <source>Show the True Crypto OSS help message to get a list with possible TDC command-line options</source>
+        <translation>Visa True Crypto OSS-hjälpmeddelandet för att få en lista med möjliga TDC-kommandoradalternativ</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -883,8 +883,8 @@ Adress: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>TDC Core</source>
-        <translation>TDC Core
+        <source>True Crypto OSS</source>
+        <translation>True Crypto OSS
 </translation>
     </message>
     <message>
@@ -931,16 +931,16 @@ Adress: %4
         <translation>Välkommen</translation>
     </message>
     <message>
-        <source>Welcome to TDC Core.</source>
-        <translation>Välkommen till TDC Core.</translation>
+        <source>Welcome to True Crypto OSS.</source>
+        <translation>Välkommen till True Crypto OSS.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where TDC Core will store its data.</source>
-        <translation>Då detta är första gången programmet startas kan du välja var TDC Core ska lagra sin data.</translation>
+        <source>As this is the first time the program is launched, you can choose where True Crypto OSS will store its data.</source>
+        <translation>Då detta är första gången programmet startas kan du välja var True Crypto OSS ska lagra sin data.</translation>
     </message>
     <message>
-        <source>TDC Core will download and store a copy of the TDC block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>TDC Core kommer att laddas ned och lagra en kopia av TDC:s blockkedja. Minst %1 GB data kommer att lagras i denna katalog och den kommer att växa med tiden. Plånboken kommer också att lagras i denna katalog.</translation>
+        <source>True Crypto OSS will download and store a copy of the TDC block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>True Crypto OSS kommer att laddas ned och lagra en kopia av TDC:s blockkedja. Minst %1 GB data kommer att lagras i denna katalog och den kommer att växa med tiden. Plånboken kommer också att lagras i denna katalog.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1103,12 +1103,6 @@ Adress: %4
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting TDC.</source>
         <translation>Användargränssnittspråket kan ställas in här. Denna inställning träder i kraft efter att TDC startats om.</translation>
-    </message>
-    <message>
-        <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</source>
-        <translation>Fattas språk eller är det en ofullständig översättning? Hjälp till att bidra med översättningar här:
-https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1985,8 +1979,8 @@ https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>TDC Core is shutting down...</source>
-        <translation>TDC Core stängs ned...</translation>
+        <source>True Crypto OSS is shutting down...</source>
+        <translation>True Crypto OSS stängs ned...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2127,8 +2121,8 @@ https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>TDC Core</source>
-        <translation>TDC Core
+        <source>True Crypto OSS</source>
+        <translation>True Crypto OSS
 </translation>
     </message>
     <message>
@@ -2140,8 +2134,8 @@ https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
         <translation>Bitcoin Core-utvecklarna</translation>
     </message>
     <message>
-        <source>The TDC Core developers</source>
-        <translation>TDC Core-utvecklarna</translation>
+        <source>The True Crypto OSS developers</source>
+        <translation>True Crypto OSS-utvecklarna</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2662,8 +2656,8 @@ https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
         <translation>Sammanbind till fastställd adress och avlyssna alltid den. Använd [host]:port-notation för IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. TDC Core is probably already running.</source>
-        <translation>Kan inte erhålla ett lås på datakatalog %s. TDC Core körs förmodligen redan.</translation>
+        <source>Cannot obtain a lock on data directory %s. True Crypto OSS is probably already running.</source>
+        <translation>Kan inte erhålla ett lås på datakatalog %s. True Crypto OSS körs förmodligen redan.</translation>
     </message>
     <message>
         <source>Obfuscate uses exact -------- amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -2718,8 +2712,8 @@ https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
         <translation>Detta är en förhandsutgiven testkompilering - använd på egen risk - använd inte för utvinning eller handlarapplikationer.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. TDC Core is probably already running.</source>
-        <translation>Det går inte att binda till %s till denna dator. TDC Core körs förmodligen redan.</translation>
+        <source>Unable to bind to %s on this computer. True Crypto OSS is probably already running.</source>
+        <translation>Det går inte att binda till %s till denna dator. True Crypto OSS körs förmodligen redan.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscate -------- funds for this transaction.</source>
@@ -2942,8 +2936,8 @@ https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
         <translation>Information</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. TDC Core is shutting down.</source>
-        <translation>Initialiseringstillståndkontroll misslyckades. TDC Core stängs ned.</translation>
+        <source>Initialization sanity check failed. True Crypto OSS is shutting down.</source>
+        <translation>Initialiseringstillståndkontroll misslyckades. True Crypto OSS stängs ned.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>

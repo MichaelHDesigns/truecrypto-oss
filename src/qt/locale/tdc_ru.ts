@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>TDC Core</source>
-        <translation>TDC Core</translation>
+        <source>True Crypto OSS</source>
+        <translation>True Crypto OSS</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -283,12 +283,12 @@
         <translation>Закрыть приложение</translation>
     </message>
     <message>
-        <source>&amp;About TDC Core</source>
-        <translation>О &amp;TDC Core</translation>
+        <source>&amp;About True Crypto OSS</source>
+        <translation>О &amp;True Crypto OSS</translation>
     </message>
     <message>
-        <source>Show information about TDC Core</source>
-        <translation>Показать информацию о TDC Core</translation>
+        <source>Show information about True Crypto OSS</source>
+        <translation>Показать информацию о True Crypto OSS</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -451,8 +451,8 @@
         <translation>&amp;Параметры командной строки</translation>
     </message>
     <message>
-        <source>TDC Core client</source>
-        <translation>Клиент TDC Core</translation>
+        <source>True Crypto OSS client</source>
+        <translation>Клиент True Crypto OSS</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,8 +463,8 @@
         <translation>Синхронизация дополнительных данных: %p%</translation>
     </message>
     <message>
-        <source>Show the TDC Core help message to get a list with possible TDC command-line options</source>
-        <translation>Показать помощь о TDC Core со списком возможных параметров командной строки</translation>
+        <source>Show the True Crypto OSS help message to get a list with possible TDC command-line options</source>
+        <translation>Показать помощь о True Crypto OSS со списком возможных параметров командной строки</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -989,8 +989,8 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>TDC Core</source>
-        <translation>TDC Core</translation>
+        <source>True Crypto OSS</source>
+        <translation>True Crypto OSS</translation>
     </message>
     <message>
         <source>version</source>
@@ -1001,8 +1001,8 @@ Address: %4
         <translation>(%1-бит)</translation>
     </message>
     <message>
-        <source>About TDC Core</source>
-        <translation>О TDC Core</translation>
+        <source>About True Crypto OSS</source>
+        <translation>О True Crypto OSS</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1048,16 +1048,16 @@ Address: %4
         <translation>Добро пожаловать</translation>
     </message>
     <message>
-        <source>Welcome to TDC Core.</source>
-        <translation>Добро пожаловать в TDC Core.</translation>
+        <source>Welcome to True Crypto OSS.</source>
+        <translation>Добро пожаловать в True Crypto OSS.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where TDC Core will store its data.</source>
-        <translation>Так как вы впервые запустили программу, вы можете выбрать, где TDC Core будет хранить данные.</translation>
+        <source>As this is the first time the program is launched, you can choose where True Crypto OSS will store its data.</source>
+        <translation>Так как вы впервые запустили программу, вы можете выбрать, где True Crypto OSS будет хранить данные.</translation>
     </message>
     <message>
-        <source>TDC Core will download and store a copy of the TDC block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>TDC Core скачает и сохранит копию цепочки блоков. Как минимум %1ГБ данных будет храниться в этом каталоге и размер данных будет со временем расти. В этом же каталоге будет сохранён кошелёк.</translation>
+        <source>True Crypto OSS will download and store a copy of the TDC block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>True Crypto OSS скачает и сохранит копию цепочки блоков. Как минимум %1ГБ данных будет храниться в этом каталоге и размер данных будет со временем расти. В этом же каталоге будет сохранён кошелёк.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1068,8 +1068,8 @@ Address: %4
         <translation>Использовать другой каталог данных:</translation>
     </message>
     <message>
-        <source>TDC Core</source>
-        <translation>TDC Core</translation>
+        <source>True Crypto OSS</source>
+        <translation>True Crypto OSS</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1260,12 +1260,6 @@ Address: %4
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting TDC.</source>
         <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска TDC.</translation>
-    </message>
-    <message>
-        <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</source>
-        <translation>Нет Вашего языка или перевод неполон? Помогите нам сделать перевод лучше:
-https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -2586,8 +2580,8 @@ https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>TDC Core is shutting down...</source>
-        <translation>TDC Core выключается...</translation>
+        <source>True Crypto OSS is shutting down...</source>
+        <translation>True Crypto OSS выключается...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2736,8 +2730,8 @@ https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>TDC Core</source>
-        <translation>TDC Core</translation>
+        <source>True Crypto OSS</source>
+        <translation>True Crypto OSS</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2748,8 +2742,8 @@ https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
         <translation>Разработчики Bitcoin Core</translation>
     </message>
     <message>
-        <source>The TDC Core developers</source>
-        <translation>Разработчики TDC Core</translation>
+        <source>The True Crypto OSS developers</source>
+        <translation>Разработчики True Crypto OSS</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3326,8 +3320,8 @@ https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
         <translation>Привязаться к указанному адресу и всегда прослушивать только его. Используйте [хост]:порт для IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. TDC Core is probably already running.</source>
-        <translation>Не удалось установить блокировку на каталог данных %s. Возможно, TDC Core уже запущен.</translation>
+        <source>Cannot obtain a lock on data directory %s. True Crypto OSS is probably already running.</source>
+        <translation>Не удалось установить блокировку на каталог данных %s. Возможно, True Crypto OSS уже запущен.</translation>
     </message>
     <message>
         <source>Obfuscate uses exact -------- amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3382,8 +3376,8 @@ https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
         <translation>Это пре-релизная тестовая сборка - используйте на свой страх и риск - не используйте для добычи или торговых приложений</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. TDC Core is probably already running.</source>
-        <translation>Не удалось привязаться к %s на этом компьютере. Возможно, TDC Core уже запущен.</translation>
+        <source>Unable to bind to %s on this computer. True Crypto OSS is probably already running.</source>
+        <translation>Не удалось привязаться к %s на этом компьютере. Возможно, True Crypto OSS уже запущен.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscate -------- funds for this transaction.</source>
@@ -3746,8 +3740,8 @@ rpcpassword=%s
         <translation>Внимание: установлено очень большое значение -paytxfee! Комиссия такого размера может быть уплачена при проведении одельной транзакции.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong TDC Core will not work properly.</source>
-        <translation>Внимание: пожалуйста, убедитесь что дата и время на Вашем компьютере выставлены правильно! TDC Core не сможет работать корректно, если часы настроены неверно.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong True Crypto OSS will not work properly.</source>
+        <translation>Внимание: пожалуйста, убедитесь что дата и время на Вашем компьютере выставлены правильно! True Crypto OSS не сможет работать корректно, если часы настроены неверно.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3800,8 +3794,8 @@ rpcpassword=%s
         <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The TDC Core Developers</source>
-        <translation>Copyright (C) 2014-%i The TDC Core Developers</translation>
+        <source>Copyright (C) 2014-%i The True Crypto OSS Developers</source>
+        <translation>Copyright (C) 2014-%i The True Crypto OSS Developers</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3832,8 +3826,8 @@ rpcpassword=%s
         <translation>Ошибка соединения с мастернодой.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of TDC Core</source>
-        <translation>Ошибка загрузки wallet.dat: кошелёк требует более новой версии TDC Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of True Crypto OSS</source>
+        <translation>Ошибка загрузки wallet.dat: кошелёк требует более новой версии True Crypto OSS</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3904,8 +3898,8 @@ rpcpassword=%s
         <translation>Информация</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. TDC Core is shutting down.</source>
-        <translation>Проверка на непротиворечивость закончилась неудачно. TDC Core выключается.</translation>
+        <source>Initialization sanity check failed. True Crypto OSS is shutting down.</source>
+        <translation>Проверка на непротиворечивость закончилась неудачно. True Crypto OSS выключается.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4156,8 +4150,8 @@ rpcpassword=%s
         <translation>Использовать UPnP для проброса порта (по умолчанию: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart TDC Core to complete</source>
-        <translation>Необходимо перезаписать кошелёк: перезапустите TDC Core для завершения операции</translation>
+        <source>Wallet needed to be rewritten: restart True Crypto OSS to complete</source>
+        <translation>Необходимо перезаписать кошелёк: перезапустите True Crypto OSS для завершения операции</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>

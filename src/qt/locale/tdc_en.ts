@@ -776,7 +776,7 @@
     <message>
         <location line="-413"/>
         <location line="+853"/>
-        <source>TDC Core</source>
+        <source>True Crypto OSS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -801,12 +801,12 @@
     </message>
     <message>
         <location line="+29"/>
-        <source>&amp;About TDC Core</source>
+        <source>&amp;About True Crypto OSS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about TDC Core</source>
+        <source>Show information about True Crypto OSS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -871,7 +871,7 @@
     </message>
     <message>
         <location line="+4"/>
-        <source>Show the TDC Core help message to get a list with possible TDC command-line options</source>
+        <source>Show the True Crypto OSS help message to get a list with possible TDC command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -881,7 +881,7 @@
     </message>
     <message>
         <location line="+147"/>
-        <source>TDC Core client</source>
+        <source>True Crypto OSS client</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
@@ -1512,7 +1512,7 @@ Address: %4
     </message>
     <message>
         <location line="+0"/>
-        <source>TDC Core</source>
+        <source>True Crypto OSS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1523,7 +1523,7 @@ Address: %4
     </message>
     <message>
         <location line="+5"/>
-        <source>About TDC Core</source>
+        <source>About True Crypto OSS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1581,17 +1581,17 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to TDC Core.</source>
+        <source>Welcome to True Crypto OSS.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where TDC Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where True Crypto OSS will store its data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>TDC Core will download and store a copy of the TDC block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>True Crypto OSS will download and store a copy of the TDC block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1606,7 +1606,7 @@ Address: %4
     </message>
     <message>
         <location filename="../intro.cpp" line="+82"/>
-        <source>TDC Core</source>
+        <source>True Crypto OSS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2189,12 +2189,6 @@ Please check the address and try again.</source>
     <message>
         <location line="+192"/>
         <source>The user interface language can be set here. This setting will take effect after restarting TDC.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+21"/>
-        <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/tdc-project/tdc-project-translations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4019,7 +4013,7 @@ https://www.transifex.com/tdc-project/tdc-project-translations</source>
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+43"/>
-        <source>TDC Core is shutting down...</source>
+        <source>True Crypto OSS is shutting down...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4214,7 +4208,7 @@ https://www.transifex.com/tdc-project/tdc-project-translations</source>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+37"/>
-        <source>TDC Core</source>
+        <source>True Crypto OSS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4224,17 +4218,21 @@ https://www.transifex.com/tdc-project/tdc-project-translations</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>The Bitcoin Core developers</source>
-        <translation>The Bitcoin Core developers</translation>
+        <source>Bitcoin Developers</source>
+        <translation>Bitcoin Developers</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>The TrafficDataCoin and DASH Core Developers</source>
+        <source>DASH Developers</source>
+        <translation type="unfinished"></translation>
+    </message><message>
+        <location line="+1"/>
+        <source>PIVX Developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>The TDC Core developers</source>
+        <source>True Crypto OSS Community</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5028,7 +5026,7 @@ https://www.transifex.com/tdc-project/tdc-project-translations</source>
     </message>
     <message>
         <location line="+4"/>
-        <source>Cannot obtain a lock on data directory %s. TDC Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. True Crypto OSS is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5253,7 +5251,7 @@ for example: alertnotify=echo %%s | mail -s &quot;TDC Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+13"/>
-        <source>Unable to bind to %s on this computer. TDC Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. True Crypto OSS is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5288,7 +5286,7 @@ for example: alertnotify=echo %%s | mail -s &quot;TDC Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong TDC Core will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong True Crypto OSS will not work properly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5475,17 +5473,22 @@ for example: alertnotify=echo %%s | mail -s &quot;TDC Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
-        <translation type="unfinished">Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
+        <source>Copyright (C) 2009-%i Bitcoin Developers</source>
+        <translation type="unfinished">Copyright (C) 2009-%i Bitcoin Developers</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2014-%i The TrafficDataCoin and DASH Core Developers</source>
+        <source>Copyright (C) 2014-%i DASH Developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2015-%i The TDC Core Developers</source>
+        <source>Copyright (C) 2015-%i PIVX Developers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copyright (C) 2018-%i True Crypto OSS Community</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5575,7 +5578,7 @@ for example: alertnotify=echo %%s | mail -s &quot;TDC Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of TDC Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of True Crypto OSS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5715,7 +5718,7 @@ for example: alertnotify=echo %%s | mail -s &quot;TDC Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. TDC Core is shutting down.</source>
+        <source>Initialization sanity check failed. True Crypto OSS is shutting down.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6435,7 +6438,7 @@ for example: alertnotify=echo %%s | mail -s &quot;TDC Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart TDC Core to complete</source>
+        <source>Wallet needed to be rewritten: restart True Crypto OSS to complete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

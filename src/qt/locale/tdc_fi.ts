@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>TDC Core</source>
-        <translation>TDC Core</translation>
+        <source>True Crypto OSS</source>
+        <translation>True Crypto OSS</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -283,12 +283,12 @@
         <translation>Sulje ohjelma</translation>
     </message>
     <message>
-        <source>&amp;About TDC Core</source>
-        <translation>Tietoja &amp;TDC Core:sta</translation>
+        <source>&amp;About True Crypto OSS</source>
+        <translation>Tietoja &amp;True Crypto OSS:sta</translation>
     </message>
     <message>
-        <source>Show information about TDC Core</source>
-        <translation>Näytä tietoja TDC Core:sta</translation>
+        <source>Show information about True Crypto OSS</source>
+        <translation>Näytä tietoja True Crypto OSS:sta</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -451,8 +451,8 @@
         <translation>&amp;Komentorivin valinnat</translation>
     </message>
     <message>
-        <source>TDC Core client</source>
-        <translation>TDC Core asiakasohjelma</translation>
+        <source>True Crypto OSS client</source>
+        <translation>True Crypto OSS asiakasohjelma</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,8 +463,8 @@
         <translation>Synkronoidaan lisätietoja: %p%</translation>
     </message>
     <message>
-        <source>Show the TDC Core help message to get a list with possible TDC command-line options</source>
-        <translation>Näytä TDC Core ohjelista komentorivin valinnoista</translation>
+        <source>Show the True Crypto OSS help message to get a list with possible TDC command-line options</source>
+        <translation>Näytä True Crypto OSS ohjelista komentorivin valinnoista</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -989,8 +989,8 @@ Osoite: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>TDC Core</source>
-        <translation>TDC Core</translation>
+        <source>True Crypto OSS</source>
+        <translation>True Crypto OSS</translation>
     </message>
     <message>
         <source>version</source>
@@ -1001,8 +1001,8 @@ Osoite: %4
         <translation>(%1-bittinen)</translation>
     </message>
     <message>
-        <source>About TDC Core</source>
-        <translation>Tietoja TDC Core:sta</translation>
+        <source>About True Crypto OSS</source>
+        <translation>Tietoja True Crypto OSS:sta</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1048,17 +1048,17 @@ Osoite: %4
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to TDC Core.</source>
-        <translation>TDC Core - Tervetuloa.</translation>
+        <source>Welcome to True Crypto OSS.</source>
+        <translation>True Crypto OSS - Tervetuloa.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where TDC Core will store its data.</source>
-        <translation>Koska tämä on ensimmäinen kerta kun ohjelma käynnistetään, voit valita minne TDC Core tallettaa datansa.
+        <source>As this is the first time the program is launched, you can choose where True Crypto OSS will store its data.</source>
+        <translation>Koska tämä on ensimmäinen kerta kun ohjelma käynnistetään, voit valita minne True Crypto OSS tallettaa datansa.
 Varoitus: Jos käytät käyttöjärjestelmää (Live os) suoraan usb, dvd tai cd levyltä, ohjaa talletettava data eri levyasemalle turvalliseen paikkaan.</translation>
     </message>
     <message>
-        <source>TDC Core will download and store a copy of the TDC block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>TDC Core lataa ja tallettaa kopion lohkoketjusta. Vähintään %1GB dataa talletetaan tähän hakemistoon, ja se myös kasvaa ajan myötä. Myös lompakko talletetaan tähän hakemistoon.</translation>
+        <source>True Crypto OSS will download and store a copy of the TDC block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>True Crypto OSS lataa ja tallettaa kopion lohkoketjusta. Vähintään %1GB dataa talletetaan tähän hakemistoon, ja se myös kasvaa ajan myötä. Myös lompakko talletetaan tähän hakemistoon.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1069,8 +1069,8 @@ Varoitus: Jos käytät käyttöjärjestelmää (Live os) suoraan usb, dvd tai cd
         <translation>Määritä oma hakemisto:</translation>
     </message>
     <message>
-        <source>TDC Core</source>
-        <translation>TDC Core</translation>
+        <source>True Crypto OSS</source>
+        <translation>True Crypto OSS</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1261,12 +1261,6 @@ Varoitus: Jos käytät käyttöjärjestelmää (Live os) suoraan usb, dvd tai cd
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting TDC.</source>
         <translation>Käyttöliittymän kieli asetetaan tässä, Asetus tulee voimaan kun TDC asiakasohjelma käynnistetään uudelleen.</translation>
-    </message>
-    <message>
-        <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</source>
-        <translation>Puuttuuko sopiva kieli tai käännös on kesken? Auta käännöstyössä täällä:
-https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -2591,8 +2585,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>TDC Core is shutting down...</source>
-        <translation>TDC Core sulkeutuu...</translation>
+        <source>True Crypto OSS is shutting down...</source>
+        <translation>True Crypto OSS sulkeutuu...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2741,8 +2735,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>TDC Core</source>
-        <translation>TDC Core</translation>
+        <source>True Crypto OSS</source>
+        <translation>True Crypto OSS</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2753,8 +2747,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Bitcoin Core kehittäjät</translation>
     </message>
     <message>
-        <source>The TDC Core developers</source>
-        <translation>TDC Core kehittäjät</translation>
+        <source>The True Crypto OSS developers</source>
+        <translation>True Crypto OSS kehittäjät</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3331,8 +3325,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Kytkeydy annettuun osoitteeseen ja pidä linja aina auki. Käytä [host]:port merkintätapaa IPv6:lle.</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. TDC Core is probably already running.</source>
-        <translation>Ei voida lukita data hakemistoa %s. TDC Core on luultavasti jo käynnissä.</translation>
+        <source>Cannot obtain a lock on data directory %s. True Crypto OSS is probably already running.</source>
+        <translation>Ei voida lukita data hakemistoa %s. True Crypto OSS on luultavasti jo käynnissä.</translation>
     </message>
     <message>
         <source>Obfuscate uses exact -------- amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3387,8 +3381,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Tämä on esi-julkaistu testiversio - Käytä omalla vastuulla - Älä käytä louhimiseen tai kauppasovelluksiin.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. TDC Core is probably already running.</source>
-        <translation>Ei voida yhdistää %s tässä tietokoneessa. TDC Core on luultavasti jo käynnissä.</translation>
+        <source>Unable to bind to %s on this computer. True Crypto OSS is probably already running.</source>
+        <translation>Ei voida yhdistää %s tässä tietokoneessa. True Crypto OSS on luultavasti jo käynnissä.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscate -------- funds for this transaction.</source>
@@ -3753,7 +3747,7 @@ esimerkiksi: alertnotify=echo %%s | mail -s "TDC Hälytys" admin@foo.com
         <translation>Varoitus: -maxtxfee on asetettu erittäin korkeaksi! Näin isot siirtomaksut voitaisiin maksaa yhdessä siirtotapahtumassa.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong TDC Core will not work properly.</source>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong True Crypto OSS will not work properly.</source>
         <translation>Varoitus: Tarkista että tietokoneesi kellonaika ja päivämäärä ovat oikein! TDC ei toimi oikein väärällä päivämäärällä ja/tai kellonajalla.</translation>
     </message>
     <message>
@@ -3807,8 +3801,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s "TDC Hälytys" admin@foo.com
         <translation>Copyright (C) 2009-%i Bitcoin Core Kehittäjät</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The TDC Core Developers</source>
-        <translation>Copyright (C) 2014-%i TDC Core Kehittäjät</translation>
+        <source>Copyright (C) 2014-%i The True Crypto OSS Developers</source>
+        <translation>Copyright (C) 2014-%i True Crypto OSS Kehittäjät</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3839,8 +3833,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s "TDC Hälytys" admin@foo.com
         <translation>Virhe masternode:en kytkeytymisessä.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of TDC Core</source>
-        <translation>Virhe ladattaessa wallet.dat: Lompakko vaatii uudemman version TDC Core:sta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of True Crypto OSS</source>
+        <translation>Virhe ladattaessa wallet.dat: Lompakko vaatii uudemman version True Crypto OSS:sta</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3911,8 +3905,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s "TDC Hälytys" admin@foo.com
         <translation>Tietoa</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. TDC Core is shutting down.</source>
-        <translation>Alkuperäisyyden tarkistus epäonnistui. TDC Core sulkeutuu.</translation>
+        <source>Initialization sanity check failed. True Crypto OSS is shutting down.</source>
+        <translation>Alkuperäisyyden tarkistus epäonnistui. True Crypto OSS sulkeutuu.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4163,8 +4157,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s "TDC Hälytys" admin@foo.com
         <translation>Käytä UPnP:tä kuunneltavan portin kartoitukseen (oletus: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart TDC Core to complete</source>
-        <translation>Lompakko on kirjoitettava uudelleen: käynnistä TDC Core uudestaan viimeistelyä varten</translation>
+        <source>Wallet needed to be rewritten: restart True Crypto OSS to complete</source>
+        <translation>Lompakko on kirjoitettava uudelleen: käynnistä True Crypto OSS uudestaan viimeistelyä varten</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>

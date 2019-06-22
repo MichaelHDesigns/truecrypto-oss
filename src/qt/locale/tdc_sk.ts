@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>TDC Core</source>
-        <translation>TDC Core</translation>
+        <source>True Crypto OSS</source>
+        <translation>True Crypto OSS</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -283,12 +283,12 @@
         <translation>Ukončiť program</translation>
     </message>
     <message>
-        <source>&amp;About TDC Core</source>
-        <translation>&amp;O TDC Core</translation>
+        <source>&amp;About True Crypto OSS</source>
+        <translation>&amp;O True Crypto OSS</translation>
     </message>
     <message>
-        <source>Show information about TDC Core</source>
-        <translation>Zobraziť informácie o TDC Core</translation>
+        <source>Show information about True Crypto OSS</source>
+        <translation>Zobraziť informácie o True Crypto OSS</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -451,8 +451,8 @@
         <translation>Možnosti príkazového riadku</translation>
     </message>
     <message>
-        <source>TDC Core client</source>
-        <translation>TDC Core klient</translation>
+        <source>True Crypto OSS client</source>
+        <translation>True Crypto OSS klient</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,8 +463,8 @@
         <translation>Synchronizujú sa ďalšie dáta: %p%</translation>
     </message>
     <message>
-        <source>Show the TDC Core help message to get a list with possible TDC command-line options</source>
-        <translation>Zobraziť TDC Core nápovedu k získaniu zoznamu možností príkazového riadku TDC.</translation>
+        <source>Show the True Crypto OSS help message to get a list with possible TDC command-line options</source>
+        <translation>Zobraziť True Crypto OSS nápovedu k získaniu zoznamu možností príkazového riadku TDC.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -988,8 +988,8 @@ Adresa: %4</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>TDC Core</source>
-        <translation>TDC Core</translation>
+        <source>True Crypto OSS</source>
+        <translation>True Crypto OSS</translation>
     </message>
     <message>
         <source>version</source>
@@ -1000,8 +1000,8 @@ Adresa: %4</translation>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About TDC Core</source>
-        <translation>O TDC Core</translation>
+        <source>About True Crypto OSS</source>
+        <translation>O True Crypto OSS</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1047,16 +1047,16 @@ Adresa: %4</translation>
         <translation>Vitajte</translation>
     </message>
     <message>
-        <source>Welcome to TDC Core.</source>
-        <translation>Vitajte v TDC Core.</translation>
+        <source>Welcome to True Crypto OSS.</source>
+        <translation>Vitajte v True Crypto OSS.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where TDC Core will store its data.</source>
-        <translation>Keďže toto je prvý krát čo spúšťate tento program, môžete vybrať kam bude TDC Core ukladať svoje dáta.</translation>
+        <source>As this is the first time the program is launched, you can choose where True Crypto OSS will store its data.</source>
+        <translation>Keďže toto je prvý krát čo spúšťate tento program, môžete vybrať kam bude True Crypto OSS ukladať svoje dáta.</translation>
     </message>
     <message>
-        <source>TDC Core will download and store a copy of the TDC block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>TDC Core stiahne a uloží kópiu reťazca blokov TDC. Pri najmenej %1GB dát bude uložených v tejto zložke and bude ďalej rásť. Peňaženka bude tiež uložená v tejto zložke.</translation>
+        <source>True Crypto OSS will download and store a copy of the TDC block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>True Crypto OSS stiahne a uloží kópiu reťazca blokov TDC. Pri najmenej %1GB dát bude uložených v tejto zložke and bude ďalej rásť. Peňaženka bude tiež uložená v tejto zložke.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1067,8 +1067,8 @@ Adresa: %4</translation>
         <translation>Použiť vlastný dátový adresár:</translation>
     </message>
     <message>
-        <source>TDC Core</source>
-        <translation>TDC Core</translation>
+        <source>True Crypto OSS</source>
+        <translation>True Crypto OSS</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1259,12 +1259,6 @@ Adresa: %4</translation>
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting TDC.</source>
         <translation>Tu môžete nastaviť jazyk používateľského prostredia. Toto nastavenie sa prejaví po reštartovaní TDC.</translation>
-    </message>
-    <message>
-        <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</source>
-        <translation>Chýbajúci alebo nekompletný preklad? Pomôžte nám tu:
-https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -2585,8 +2579,8 @@ https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>TDC Core is shutting down...</source>
-        <translation>TDC core sa vypína...</translation>
+        <source>True Crypto OSS is shutting down...</source>
+        <translation>True Crypto OSS sa vypína...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2735,8 +2729,8 @@ https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>TDC Core</source>
-        <translation>TDC Core</translation>
+        <source>True Crypto OSS</source>
+        <translation>True Crypto OSS</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2747,8 +2741,8 @@ https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
         <translation>Vývojári jadra Bitcoin</translation>
     </message>
     <message>
-        <source>The TDC Core developers</source>
-        <translation>Vývojári TDC Core</translation>
+        <source>The True Crypto OSS developers</source>
+        <translation>Vývojári True Crypto OSS</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3325,8 +3319,8 @@ https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
         <translation>Spojiť s danou adresou a vždy na nej počúvať. Použite zápis [host]:port pre IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. TDC Core is probably already running.</source>
-        <translation>Nedá sa zamknúť dátový adresár %s. TDC Core už pravdepodobne beží.</translation>
+        <source>Cannot obtain a lock on data directory %s. True Crypto OSS is probably already running.</source>
+        <translation>Nedá sa zamknúť dátový adresár %s. True Crypto OSS už pravdepodobne beží.</translation>
     </message>
     <message>
         <source>Obfuscate uses exact -------- amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3381,8 +3375,8 @@ https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
         <translation>Toto je predbežná testovacia zostava - používate na vlastné riziko - nepoužívajte na ťaženie alebo obchodné aplikácie</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. TDC Core is probably already running.</source>
-        <translation>Nedá sa viazať ku %s na tomto počítači. TDC Core už pravdepodobne beží.</translation>
+        <source>Unable to bind to %s on this computer. True Crypto OSS is probably already running.</source>
+        <translation>Nedá sa viazať ku %s na tomto počítači. True Crypto OSS už pravdepodobne beží.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscate -------- funds for this transaction.</source>
@@ -3745,8 +3739,8 @@ napríklad: alertnotify=echo %%s | mail -s "TDC Upozornenie" admin@foo.com
         <translation>Upozornenie: -maxtxfee je nastavené príliš vysoko! Takto vysoké poplatky by mali byť zaplatené za jednu transakciu.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong TDC Core will not work properly.</source>
-        <translation>Upozornenie: Skontrolujte si prosím či máte správny čas a dátum na Vašom počítači. Ak je Vaše nastavenie zlé, TDC Core nebude pracovať správne.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong True Crypto OSS will not work properly.</source>
+        <translation>Upozornenie: Skontrolujte si prosím či máte správny čas a dátum na Vašom počítači. Ak je Vaše nastavenie zlé, True Crypto OSS nebude pracovať správne.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3799,7 +3793,7 @@ napríklad: alertnotify=echo %%s | mail -s "TDC Upozornenie" admin@foo.com
         <translation>Autorské práva (C) 2009-%i Vývojári jadra Bitcoin</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The TDC Core Developers</source>
+        <source>Copyright (C) 2014-%i The True Crypto OSS Developers</source>
         <translation>Autorské práva (C) 2014-%i Vývojári jadra TDC</translation>
     </message>
     <message>
@@ -3831,8 +3825,8 @@ napríklad: alertnotify=echo %%s | mail -s "TDC Upozornenie" admin@foo.com
         <translation>Chyba pripojenia k Masternode.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of TDC Core</source>
-        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu TDC Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of True Crypto OSS</source>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu True Crypto OSS</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3903,8 +3897,8 @@ napríklad: alertnotify=echo %%s | mail -s "TDC Upozornenie" admin@foo.com
         <translation>Informácia</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. TDC Core is shutting down.</source>
-        <translation>Inicializácia kontroly zdravia zlyhala. TDC Core sa vypína.</translation>
+        <source>Initialization sanity check failed. True Crypto OSS is shutting down.</source>
+        <translation>Inicializácia kontroly zdravia zlyhala. True Crypto OSS sa vypína.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4155,8 +4149,8 @@ napríklad: alertnotify=echo %%s | mail -s "TDC Upozornenie" admin@foo.com
         <translation>Použiť UPnP pre mapovanie počúvajúceho portu (predvolené: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart TDC Core to complete</source>
-        <translation>Bolo potrebné prepísať peňaženku: k dokončeniu reštartujte TDC Core</translation>
+        <source>Wallet needed to be rewritten: restart True Crypto OSS to complete</source>
+        <translation>Bolo potrebné prepísať peňaženku: k dokončeniu reštartujte True Crypto OSS</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>

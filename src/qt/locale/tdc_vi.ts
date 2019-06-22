@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>TDC Core</source>
-        <translation>TDC Core</translation>
+        <source>True Crypto OSS</source>
+        <translation>True Crypto OSS</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -283,12 +283,12 @@
         <translation>Thoát ứng dụng</translation>
     </message>
     <message>
-        <source>&amp;About TDC Core</source>
-        <translation>&amp;Về TDC Core</translation>
+        <source>&amp;About True Crypto OSS</source>
+        <translation>&amp;Về True Crypto OSS</translation>
     </message>
     <message>
-        <source>Show information about TDC Core</source>
-        <translation>Hiển thị thông tin về TDC Core</translation>
+        <source>Show information about True Crypto OSS</source>
+        <translation>Hiển thị thông tin về True Crypto OSS</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -451,8 +451,8 @@
         <translation>&amp;Các Tuỳ chọn dòng lệnh</translation>
     </message>
     <message>
-        <source>TDC Core client</source>
-        <translation>Phần mềm TDC Core</translation>
+        <source>True Crypto OSS client</source>
+        <translation>Phần mềm True Crypto OSS</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,8 +463,8 @@
         <translation>Đang đồng bộ những dữ liệu bổ sung: %p%</translation>
     </message>
     <message>
-        <source>Show the TDC Core help message to get a list with possible TDC command-line options</source>
-        <translation>Hiển thị hướng dẫn của TDC Core để có danh sách đầy đủ các tuỳ chọn dòng lệnh của TDC.</translation>
+        <source>Show the True Crypto OSS help message to get a list with possible TDC command-line options</source>
+        <translation>Hiển thị hướng dẫn của True Crypto OSS để có danh sách đầy đủ các tuỳ chọn dòng lệnh của TDC.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -989,8 +989,8 @@ Kiểu: %3
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>TDC Core</source>
-        <translation>TDC Core</translation>
+        <source>True Crypto OSS</source>
+        <translation>True Crypto OSS</translation>
     </message>
     <message>
         <source>version</source>
@@ -1001,8 +1001,8 @@ Kiểu: %3
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About TDC Core</source>
-        <translation>Về TDC Core</translation>
+        <source>About True Crypto OSS</source>
+        <translation>Về True Crypto OSS</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1048,16 +1048,16 @@ Kiểu: %3
         <translation>Chào mừng</translation>
     </message>
     <message>
-        <source>Welcome to TDC Core.</source>
-        <translation>Chào mừng đến với TDC Core.</translation>
+        <source>Welcome to True Crypto OSS.</source>
+        <translation>Chào mừng đến với True Crypto OSS.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where TDC Core will store its data.</source>
-        <translation>Đây là lần đầu tiên chương trình được khởi động, bạn có thể chọn nơi mà TDC Core sẽ lưu dữ liệu.</translation>
+        <source>As this is the first time the program is launched, you can choose where True Crypto OSS will store its data.</source>
+        <translation>Đây là lần đầu tiên chương trình được khởi động, bạn có thể chọn nơi mà True Crypto OSS sẽ lưu dữ liệu.</translation>
     </message>
     <message>
-        <source>TDC Core will download and store a copy of the TDC block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>TDC Core sẽ tải và lưu một bản của sổ cái TDC. Ít nhất %1GB dữ liệu sẽ được lưu trong thư mục này, và nó sẽ tăng lên theo thời gian. Ví của bạn cũng sẽ được lưu trong thư mục này.</translation>
+        <source>True Crypto OSS will download and store a copy of the TDC block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>True Crypto OSS sẽ tải và lưu một bản của sổ cái TDC. Ít nhất %1GB dữ liệu sẽ được lưu trong thư mục này, và nó sẽ tăng lên theo thời gian. Ví của bạn cũng sẽ được lưu trong thư mục này.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1068,8 +1068,8 @@ Kiểu: %3
         <translation>Sử dụng thư mục dữ liệu tuỳ chọn:</translation>
     </message>
     <message>
-        <source>TDC Core</source>
-        <translation>TDC Core</translation>
+        <source>True Crypto OSS</source>
+        <translation>True Crypto OSS</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1260,12 +1260,6 @@ Kiểu: %3
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting TDC.</source>
         <translation>Ngôn ngữ người dùng có thể thiết lập ở đây. Thiết lập này sẽ có tác dụng sau khi khởi động lại TDC.</translation>
-    </message>
-    <message>
-        <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</source>
-        <translation>Ngôn ngữ ị thiếu hoặc việc dịch chưa hoàn tất? Tham gia dịch giúp tại đây:
-https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -2586,8 +2580,8 @@ https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>TDC Core is shutting down...</source>
-        <translation>TDC Core đang được tắt...</translation>
+        <source>True Crypto OSS is shutting down...</source>
+        <translation>True Crypto OSS đang được tắt...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2736,8 +2730,8 @@ https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>TDC Core</source>
-        <translation>TDC Core</translation>
+        <source>True Crypto OSS</source>
+        <translation>True Crypto OSS</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2748,8 +2742,8 @@ https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
         <translation>Nhóm phát triển Bitcoin Core</translation>
     </message>
     <message>
-        <source>The TDC Core developers</source>
-        <translation>Nhóm phát triển TDC Core</translation>
+        <source>The True Crypto OSS developers</source>
+        <translation>Nhóm phát triển True Crypto OSS</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3326,8 +3320,8 @@ https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
         <translation>Liên kết với địa chỉ nhất định và luôn luôn lắng nghe trên đó. Sử dụng ký hiệu [host]:port cho IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. TDC Core is probably already running.</source>
-        <translation>Không nhận được một khoá trong thư mục %s. TDC Core có thể đã đang chạy.</translation>
+        <source>Cannot obtain a lock on data directory %s. True Crypto OSS is probably already running.</source>
+        <translation>Không nhận được một khoá trong thư mục %s. True Crypto OSS có thể đã đang chạy.</translation>
     </message>
     <message>
         <source>Obfuscate uses exact -------- amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3382,8 +3376,8 @@ https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
         <translation>Đây là phiên bản chưa chính thức - hãy dùng và tự chấp nhận mạo hiểm - đừng dùng để đào coin hoặc các ứng dụng thương mại.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. TDC Core is probably already running.</source>
-        <translation>Không thể để ràng buộc vào %s trên máy tính này. TDC Core có thể đã chạy.</translation>
+        <source>Unable to bind to %s on this computer. True Crypto OSS is probably already running.</source>
+        <translation>Không thể để ràng buộc vào %s trên máy tính này. True Crypto OSS có thể đã chạy.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscate -------- funds for this transaction.</source>
@@ -3746,8 +3740,8 @@ ví dụ: alertnotify=echo %%s | mail -s "TDC Alert" admin@foo.com
         <translation>Cảnh báo: -maxtxfee được đặt rất cao! Mức Phí cao này sẽ được trả cho mỗi một giao dịch đơn.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong TDC Core will not work properly.</source>
-        <translation>Cánh báo: Hãy vui lòng kiểm tra ngày giờ máy tính của bạn cho chính xác! Nếu đồng hồ của bạn sai thì TDC Core sẽ không làm việc một cách hoàn hảo.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong True Crypto OSS will not work properly.</source>
+        <translation>Cánh báo: Hãy vui lòng kiểm tra ngày giờ máy tính của bạn cho chính xác! Nếu đồng hồ của bạn sai thì True Crypto OSS sẽ không làm việc một cách hoàn hảo.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3799,8 +3793,8 @@ ví dụ: alertnotify=echo %%s | mail -s "TDC Alert" admin@foo.com
         <translation>Bản quyền (C) 2009-%i bởi Nhóm phát triển Bitcoin Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The TDC Core Developers</source>
-        <translation>Bản quyền (C) 2014-%i bởi Nhóm phát triển TDC Core</translation>
+        <source>Copyright (C) 2014-%i The True Crypto OSS Developers</source>
+        <translation>Bản quyền (C) 2014-%i bởi Nhóm phát triển True Crypto OSS</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3831,8 +3825,8 @@ ví dụ: alertnotify=echo %%s | mail -s "TDC Alert" admin@foo.com
         <translation>Lỗi kết nối tới Masternode.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of TDC Core</source>
-        <translation>Lỗi nạp wallet.dat: Ví cần một phiên bản mới hơn của TDC Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of True Crypto OSS</source>
+        <translation>Lỗi nạp wallet.dat: Ví cần một phiên bản mới hơn của True Crypto OSS</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3903,8 +3897,8 @@ ví dụ: alertnotify=echo %%s | mail -s "TDC Alert" admin@foo.com
         <translation>Thông tin</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. TDC Core is shutting down.</source>
-        <translation>Khởi tạo việc kiểm tra tính đúng đắn thất bại. TDC Core đang được tắt.</translation>
+        <source>Initialization sanity check failed. True Crypto OSS is shutting down.</source>
+        <translation>Khởi tạo việc kiểm tra tính đúng đắn thất bại. True Crypto OSS đang được tắt.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4155,8 +4149,8 @@ ví dụ: alertnotify=echo %%s | mail -s "TDC Alert" admin@foo.com
         <translation>Sử dụng UPnP để ánh xạ cổng lắng nghe (ngầm định: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart TDC Core to complete</source>
-        <translation>Ví cần được ghi lại: khởi động lại TDC Core để hoàn tất</translation>
+        <source>Wallet needed to be rewritten: restart True Crypto OSS to complete</source>
+        <translation>Ví cần được ghi lại: khởi động lại True Crypto OSS để hoàn tất</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>

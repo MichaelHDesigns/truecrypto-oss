@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>TDC Core</source>
-        <translation>TDC Core</translation>
+        <source>True Crypto OSS</source>
+        <translation>True Crypto OSS</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -283,12 +283,12 @@
         <translation>Quitter l’application</translation>
     </message>
     <message>
-        <source>&amp;About TDC Core</source>
+        <source>&amp;About True Crypto OSS</source>
         <translation>À propos du noyau TDC</translation>
     </message>
     <message>
-        <source>Show information about TDC Core</source>
-        <translation>Affichez des informations à propos de  TDC Core</translation>
+        <source>Show information about True Crypto OSS</source>
+        <translation>Affichez des informations à propos de  True Crypto OSS</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -451,8 +451,8 @@
         <translation>Options de ligne de &amp;commande</translation>
     </message>
     <message>
-        <source>TDC Core client</source>
-        <translation>Client TDC Core </translation>
+        <source>True Crypto OSS client</source>
+        <translation>Client True Crypto OSS </translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,8 +463,8 @@
         <translation>Synchronisation des données additionnelles: %p%</translation>
     </message>
     <message>
-        <source>Show the TDC Core help message to get a list with possible TDC command-line options</source>
-        <translation>Afficher le message d'aide de TDC Core pour obtenir une liste des options de ligne de commande Bitcoin possibles.</translation>
+        <source>Show the True Crypto OSS help message to get a list with possible TDC command-line options</source>
+        <translation>Afficher le message d'aide de True Crypto OSS pour obtenir une liste des options de ligne de commande Bitcoin possibles.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -989,8 +989,8 @@ Adresse : %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>TDC Core</source>
-        <translation>TDC Core</translation>
+        <source>True Crypto OSS</source>
+        <translation>True Crypto OSS</translation>
     </message>
     <message>
         <source>version</source>
@@ -1001,8 +1001,8 @@ Adresse : %4
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About TDC Core</source>
-        <translation>A propos de TDC Core</translation>
+        <source>About True Crypto OSS</source>
+        <translation>A propos de True Crypto OSS</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1048,16 +1048,16 @@ Adresse : %4
         <translation>Bienvenue</translation>
     </message>
     <message>
-        <source>Welcome to TDC Core.</source>
-        <translation>Bienvenue à TDC Core</translation>
+        <source>Welcome to True Crypto OSS.</source>
+        <translation>Bienvenue à True Crypto OSS</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where TDC Core will store its data.</source>
-        <translation>Comme il s'agit du premier lancement du logiciel, vous pouvez choisir l'emplacement où TDC Core sauvegardera ses données.</translation>
+        <source>As this is the first time the program is launched, you can choose where True Crypto OSS will store its data.</source>
+        <translation>Comme il s'agit du premier lancement du logiciel, vous pouvez choisir l'emplacement où True Crypto OSS sauvegardera ses données.</translation>
     </message>
     <message>
-        <source>TDC Core will download and store a copy of the TDC block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>TDC Core téléchargera et sauvegardera une copie de la chaîne de blocs TDC. Au moins %1Go de données seront sauvegardées dans ce répertoire, et cette taille augmentera avec le temps. Le portefeuille sera aussi sauvegardé dans ce répertoire.</translation>
+        <source>True Crypto OSS will download and store a copy of the TDC block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>True Crypto OSS téléchargera et sauvegardera une copie de la chaîne de blocs TDC. Au moins %1Go de données seront sauvegardées dans ce répertoire, et cette taille augmentera avec le temps. Le portefeuille sera aussi sauvegardé dans ce répertoire.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1068,8 +1068,8 @@ Adresse : %4
         <translation>Utiliser un répertoire de données personnalisé :</translation>
     </message>
     <message>
-        <source>TDC Core</source>
-        <translation>TDC Core</translation>
+        <source>True Crypto OSS</source>
+        <translation>True Crypto OSS</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1260,12 +1260,6 @@ Adresse : %4
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting TDC.</source>
         <translation>La langue de l'interface utilisateur peut être modifiée ici. Ce paramètre sera pris en compte au redémarrage de TDC.</translation>
-    </message>
-    <message>
-        <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</source>
-        <translation>Langage manquant ou traduction incomplète ? Participez aux traductions ici :
-https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -2586,8 +2580,8 @@ https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>TDC Core is shutting down...</source>
-        <translation>Arrêt de TDC Core...</translation>
+        <source>True Crypto OSS is shutting down...</source>
+        <translation>Arrêt de True Crypto OSS...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2736,8 +2730,8 @@ https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>TDC Core</source>
-        <translation>TDC Core</translation>
+        <source>True Crypto OSS</source>
+        <translation>True Crypto OSS</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2748,8 +2742,8 @@ https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
         <translation>Les développeurs Bitcoin Core</translation>
     </message>
     <message>
-        <source>The TDC Core developers</source>
-        <translation>Les développeurs TDC Core</translation>
+        <source>The True Crypto OSS developers</source>
+        <translation>Les développeurs True Crypto OSS</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3326,8 +3320,8 @@ https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
         <translation>Se lier à l'adresse donnée et toujours l'écouter. Utilisez la notation [host]:port pour l'IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. TDC Core is probably already running.</source>
-        <translation>Impossible d’obtenir un verrou sur le répertoire de données %s. TDC Core fonctionne probablement déjà.</translation>
+        <source>Cannot obtain a lock on data directory %s. True Crypto OSS is probably already running.</source>
+        <translation>Impossible d’obtenir un verrou sur le répertoire de données %s. True Crypto OSS fonctionne probablement déjà.</translation>
     </message>
     <message>
         <source>Obfuscate uses exact -------- amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3382,8 +3376,8 @@ https://www.transifex.com/tdc-crypto/tdc-wallet-translations/</translation>
         <translation>Ceci est une pré-version de test - l'utiliser à vos risques et périls - ne pas l'utiliser pour miner ou pour des applications marchandes</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. TDC Core is probably already running.</source>
-        <translation>Impossible de se lier à %s sur cet ordinateur. TDC Core fonctionne probablement déjà.</translation>
+        <source>Unable to bind to %s on this computer. True Crypto OSS is probably already running.</source>
+        <translation>Impossible de se lier à %s sur cet ordinateur. True Crypto OSS fonctionne probablement déjà.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscate -------- funds for this transaction.</source>
@@ -3746,8 +3740,8 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte TDC" admin@foo.com
         <translation>Attention : -maxtxfee est réglée sur un montant très élevé ! Il s'agit des frais de transaction que vous payerez si vous envoyez une transaction.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong TDC Core will not work properly.</source>
-        <translation>Attention : Veuillez vérifier que la date et l'heure de votre ordinateur sont justes ! Si votre horloge n'est pas à l'heure, TDC Core ne fonctionnera pas correctement.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong True Crypto OSS will not work properly.</source>
+        <translation>Attention : Veuillez vérifier que la date et l'heure de votre ordinateur sont justes ! Si votre horloge n'est pas à l'heure, True Crypto OSS ne fonctionnera pas correctement.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3800,8 +3794,8 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte TDC" admin@foo.com
         <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The TDC Core Developers</source>
-        <translation>Copyright (C) 2014-%i The TDC Core Developers</translation>
+        <source>Copyright (C) 2014-%i The True Crypto OSS Developers</source>
+        <translation>Copyright (C) 2014-%i The True Crypto OSS Developers</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3832,8 +3826,8 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte TDC" admin@foo.com
         <translation>Erreur de connexion au masternode.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of TDC Core</source>
-        <translation>Erreur au chargement de wallet.dat : le Portefeuille nécessite une nouvelle version de TDC Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of True Crypto OSS</source>
+        <translation>Erreur au chargement de wallet.dat : le Portefeuille nécessite une nouvelle version de True Crypto OSS</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3904,8 +3898,8 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte TDC" admin@foo.com
         <translation>Informations</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. TDC Core is shutting down.</source>
-        <translation>Les tests de cohérences lors de l'initialisation ont échoués. TDC Core est en cours de fermeture.</translation>
+        <source>Initialization sanity check failed. True Crypto OSS is shutting down.</source>
+        <translation>Les tests de cohérences lors de l'initialisation ont échoués. True Crypto OSS est en cours de fermeture.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4156,8 +4150,8 @@ Pour exemple: alertnotify=echo %%s | mail -s "Alerte TDC" admin@foo.com
         <translation>Utiliser l'UPnP pour mapper le port d'écoute (par défaut : %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart TDC Core to complete</source>
-        <translation>Le portefeuille devait être réécrit : redémarrer TDC Core pour terminer l'opération.</translation>
+        <source>Wallet needed to be rewritten: restart True Crypto OSS to complete</source>
+        <translation>Le portefeuille devait être réécrit : redémarrer True Crypto OSS pour terminer l'opération.</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
