@@ -1,5 +1,5 @@
-TDC Core
-=====================
+True Crypto OSS
+===============
 
 Intro
 -----
@@ -13,7 +13,7 @@ Setup
 -----
 Unpack the files into a directory and run tdc-qt.exe.
 
-TDC Core is the original TDC client and it builds the backbone of the network.
+True Crypto OSS is the original TDC client and it builds the backbone of the network.
 However, it downloads and stores the entire history of TDC transactions;
 depending on the speed of your computer and network connection, the synchronization
 process can take anywhere from a few hours to a day or more.

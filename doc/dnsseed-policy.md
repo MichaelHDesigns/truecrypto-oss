@@ -1,12 +1,12 @@
 Expectations for DNS Seed operators
 ====================================
 
-TDC Core attempts to minimize the level of trust in DNS seeds,
+True Crypto OSS attempts to minimize the level of trust in DNS seeds,
 but DNS seeds still pose a small amount of risk for the network.
 As such, DNS seeds must be run by entities which have some minimum
-level of trust within the TDC community.
+level of trust within the True Crypto OSS community.
 
-Other implementations of TDC software may also use the same
+Other implementations of True Crypto OSS may also use the same
 seeds and may be more exposed. In light of this exposure this
 document establishes some basic expectations for the expectations
 for the operation of dnsseeds.

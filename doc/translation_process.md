@@ -1,7 +1,7 @@
 Translations
 ============
 
-The TDC Core project has been designed to support multiple localisations. This makes adding new phrases, and completely new languages easily achievable. For managing all application translations, TDC Core makes use of the Transifex online translation management tool.
+The True Crypto OSS project has been designed to support multiple localisations. This makes adding new phrases, and completely new languages easily achievable. For managing all application translations, True Crypto OSS makes use of the Transifex online translation management tool.
 
 ### Helping to translate (using Transifex)
 Transifex is setup to monitor the GitHub repo for updates, and when code containing new translations is found, Transifex will process any changes. It may take several hours after a pull-request has been merged, to appear in the Transifex web interface.

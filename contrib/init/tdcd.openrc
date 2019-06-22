@@ -16,7 +16,7 @@ BITCOIND_USER=${BITCOIND_USER:-tdc}
 BITCOIND_GROUP=${BITCOIND_GROUP:-tdc}
 BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/tdcd}
 
-name="TDC Core Daemon"
+name="True Crypto OSS Daemon"
 description="TDC crypto-currency p2p network daemon"
 
 command="/usr/bin/tdcd"
