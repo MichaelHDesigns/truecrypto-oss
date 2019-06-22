@@ -38,7 +38,7 @@
 #define DO_STRINGIZE(X) #X
 
 //! Copyright string used in Windows .rc files
-#define COPYRIGHT_STR "2009-" STRINGIZE(COPYRIGHT_YEAR) " The Bitcoin Core Developers, 2014-" STRINGIZE(COPYRIGHT_YEAR) " The PIVX and DASH Core Developers, 2015-" STRINGIZE(COPYRIGHT_YEAR) " The TDC Core Developers"
+#define COPYRIGHT_STR "2009-" STRINGIZE(COPYRIGHT_YEAR) " Bitcoin Developers, 2014-" STRINGIZE(COPYRIGHT_YEAR) " DASH Developers, 2015-" STRINGIZE(COPYRIGHT_YEAR) " PIVX Developers, 2018-" STRINGIZE(COPYRIGHT_YEAR) " True Crypto OSS Community"
 
 /**
  * tdcd-res.rc includes this file, but it cannot cope with real c++ code.
