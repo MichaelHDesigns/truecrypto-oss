@@ -50,7 +50,7 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 35
 
 #define QAPP_ORG_NAME "TDC"
-#define QAPP_ORG_DOMAIN "http://bit.tdcs/"
+#define QAPP_ORG_DOMAIN "https://truedividendcrypto.org/"
 #define QAPP_APP_NAME_DEFAULT "TDC-Qt"
 #define QAPP_APP_NAME_TESTNET "TDC-Qt-testnet"
 

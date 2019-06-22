@@ -30,7 +30,7 @@ static const char UNUSED* tdc_strings[] = {
                                    "notation for IPv6. This option can be specified multiple times (default: "
                                    "bind to all interfaces)"),
     QT_TRANSLATE_NOOP("tdc-core", ""
-                                   "Cannot obtain a lock on data directory %s. TDC Core is probably already "
+                                   "Cannot obtain a lock on data directory %s. True Crypto OSS is probably already "
                                    "running."),
     QT_TRANSLATE_NOOP("tdc-core", ""
                                    "Change automatic finalized budget voting behavior. mode=auto: Vote for only "
@@ -162,7 +162,7 @@ static const char UNUSED* tdc_strings[] = {
                                    "It is also recommended to set alertnotify so you are notified of problems;\n"
                                    "for example: alertnotify=echo %%s | mail -s \"TDC Alert\" admin@foo.com\n"),
     QT_TRANSLATE_NOOP("tdc-core", ""
-                                   "Unable to bind to %s on this computer. TDC Core is probably already running."),
+                                   "Unable to bind to %s on this computer. True Crypto OSS is probably already running."),
     QT_TRANSLATE_NOOP("tdc-core", ""
                                    "Unable to locate enough -------- -------- funds for this transaction."),
     QT_TRANSLATE_NOOP("tdc-core", ""
@@ -182,7 +182,7 @@ static const char UNUSED* tdc_strings[] = {
                                    "pay if you send a transaction."),
     QT_TRANSLATE_NOOP("tdc-core", ""
                                    "Warning: Please check that your computer's date and time are correct! If "
-                                   "your clock is wrong TDC Core will not work properly."),
+                                   "your clock is wrong True Crypto OSS will not work properly."),
     QT_TRANSLATE_NOOP("tdc-core", ""
                                    "Warning: The network does not appear to fully agree! Some miners appear to "
                                    "be experiencing issues."),
@@ -254,7 +254,7 @@ static const char UNUSED* tdc_strings[] = {
     QT_TRANSLATE_NOOP("tdc-core", "Error loading block database"),
     QT_TRANSLATE_NOOP("tdc-core", "Error loading wallet.dat"),
     QT_TRANSLATE_NOOP("tdc-core", "Error loading wallet.dat: Wallet corrupted"),
-    QT_TRANSLATE_NOOP("tdc-core", "Error loading wallet.dat: Wallet requires newer version of TDC Core"),
+    QT_TRANSLATE_NOOP("tdc-core", "Error loading wallet.dat: Wallet requires newer version of True Crypto OSS"),
     QT_TRANSLATE_NOOP("tdc-core", "Error opening block database"),
     QT_TRANSLATE_NOOP("tdc-core", "Error reading from database, shutting down."),
     QT_TRANSLATE_NOOP("tdc-core", "Error recovering public key."),
@@ -282,7 +282,7 @@ static const char UNUSED* tdc_strings[] = {
     QT_TRANSLATE_NOOP("tdc-core", "Incompatible version."),
     QT_TRANSLATE_NOOP("tdc-core", "Incorrect or no genesis block found. Wrong datadir for network?"),
     QT_TRANSLATE_NOOP("tdc-core", "Information"),
-    QT_TRANSLATE_NOOP("tdc-core", "Initialization sanity check failed. TDC Core is shutting down."),
+    QT_TRANSLATE_NOOP("tdc-core", "Initialization sanity check failed. True Crypto OSS is shutting down."),
     QT_TRANSLATE_NOOP("tdc-core", "Input is not valid."),
     QT_TRANSLATE_NOOP("tdc-core", "Insufficient funds."),
     QT_TRANSLATE_NOOP("tdc-core", "Invalid -onion address: '%s'"),
@@ -426,7 +426,7 @@ static const char UNUSED* tdc_strings[] = {
     QT_TRANSLATE_NOOP("tdc-core", "Verifying wallet..."),
     QT_TRANSLATE_NOOP("tdc-core", "Wallet %s resides outside data directory %s"),
     QT_TRANSLATE_NOOP("tdc-core", "Wallet is locked."),
-    QT_TRANSLATE_NOOP("tdc-core", "Wallet needed to be rewritten: restart TDC Core to complete"),
+    QT_TRANSLATE_NOOP("tdc-core", "Wallet needed to be rewritten: restart True Crypto OSS to complete"),
     QT_TRANSLATE_NOOP("tdc-core", "Wallet options:"),
     QT_TRANSLATE_NOOP("tdc-core", "Wallet window title"),
     QT_TRANSLATE_NOOP("tdc-core", "Warning"),

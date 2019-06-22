@@ -72,7 +72,7 @@ if BUILD_BITCOIN_UTILS
 endif
 
 .PHONY: FORCE
-# tdc core #
+# True Crypto OSS #
 BITCOIN_CORE_H = \
   activemasternode.h \
   addrman.h \

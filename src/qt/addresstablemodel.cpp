@@ -306,7 +306,7 @@ void AddressTableModel::updateEntry(const QString& address,
     const QString& purpose,
     int status)
 {
-    // Update address book model from TDC core
+    // Update address book model from True Crypto OSS
     priv->updateEntry(address, label, isMine, purpose, status);
 }
 
