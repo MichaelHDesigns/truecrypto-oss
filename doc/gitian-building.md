@@ -281,7 +281,7 @@ Clone the git repositories for tdc and gitian and then checkout the tdc version 
 
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
-git clone https://github.com/TDCCRYPTO/TDC.git
+git clone https://github.com/truedividendcryptocurrency/truecrypto-oss.git
 cd tdc
 git checkout v${VERSION}
 cd ..
@@ -350,7 +350,7 @@ Output from `gbuild` will look something like
     remote: Total 35606 (delta 0), reused 0 (delta 0)
     Receiving objects: 100% (35606/35606), 26.52 MiB | 4.28 MiB/s, done.
     Resolving deltas: 100% (25724/25724), done.
-    From https://github.com/TDCCRYPTO/TDC
+    From https://github.com/truedividendcryptocurrency/truecrypto-oss
     ... (new tags, new branch etc)
     --- Building for precise x86_64 ---
     Stopping target if it is up
@@ -377,8 +377,8 @@ and inputs.
 
 For example:
 ```bash
-URL=https://github.com/TDCCRYPTO/TDC
-COMMIT=b616fb8ef0d49a919b72b0388b091aaec5849b96
+URL=https://github.com/bl0ckchayn/tdc-core
+COMMIT=f56142a36318f9343c764d76dc4faaac9ae88871
 ./bin/gbuild --commit tdc=${COMMIT} --url tdc=${URL} ../tdc/contrib/gitian-descriptors/gitian-linux.yml
 ./bin/gbuild --commit tdc=${COMMIT} --url tdc=${URL} ../tdc/contrib/gitian-descriptors/gitian-win.yml
 ./bin/gbuild --commit tdc=${COMMIT} --url tdc=${URL} ../tdc/contrib/gitian-descriptors/gitian-osx.yml

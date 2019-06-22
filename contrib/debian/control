@@ -22,9 +22,9 @@ Build-Depends: debhelper,
  libqrencode-dev,
  libprotobuf-dev, protobuf-compiler
 Standards-Version: 3.9.2
-Homepage:http://bit.tdcs/
-Vcs-Git: git://github.com/TDCCRYPTO/TDC
-Vcs-Browser: http://github.com/TDCCRYPTO/TDC
+Homepage:https://truedividendcrypto.org/
+Vcs-Git: git://github.com/truedividendcryptocurrency/truecrypto-oss
+Vcs-Browser: https://github.com/truedividendcryptocurrency/truecrypto-oss
 
 Package: tdcd
 Architecture: any

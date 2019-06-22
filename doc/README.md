@@ -1,9 +1,9 @@
-TDC Core
+True Crypto OSS
 =====================
 
 Setup
 ---------------------
-[TDC Core]http://bit.tdcs/ is the original TDC client and it builds the backbone of the network. However, it downloads and stores the entire history of TDC transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[True Crypto OSS](https://truedividendcrypto.org/) is the updated TDC client and it builds the backbone of the network. However, it downloads and stores the entire history of TDC transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
@@ -41,13 +41,12 @@ The following are developer notes on how to build TDC on your native platform. T
 
 Development
 ---------------------
-The TDC repo's [root README](https://github.com/TDCCRYPTO/TDC/blob/master/README.md) contains relevant information on the development process and automated testing.
+The truecrypto-oss repo's [root README](https://github.com/truedividendcryptocurrency/truecrypto-oss/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
 - [Release Notes](release-notes.md)
 - [Release Process](release-process.md)
-- [Source Code Documentation (External Link)](https://dev.visucore.com/bitcoin/doxygen/) ***TODO***
 - [Translation Process](translation_process.md)
 - [Unit Tests](unit-tests.md)
 - [Unauthenticated REST Interface](REST-interface.md)

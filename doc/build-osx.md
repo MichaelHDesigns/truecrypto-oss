@@ -44,8 +44,8 @@ Instructions: Homebrew
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone https://github.com/TDCCRYPTO/TDC
-        cd TDC
+        git clone https://github.com/truedividendcryptocurrency/truecrypto-oss.git
+        cd truecrypto-oss
 
 2.  Build tdcd:
 

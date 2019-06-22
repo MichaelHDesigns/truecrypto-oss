@@ -22,7 +22,7 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/TDCCRYPTO/TDC.git"
+- "url": "https://github.com/truedividendcryptocurrency/truecrypto-oss.git"
   "dir": "tdc"
 files: []
 script: |
