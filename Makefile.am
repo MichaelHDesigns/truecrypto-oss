@@ -14,7 +14,7 @@ empty :=
 space := $(empty) $(empty)
 
 OSX_APP=TDC-Qt.app
-OSX_VOLNAME = $(subst $(space),-,$(PACKAGE_NAME))
+OSX_VOLNAME = truecrypto-oss
 OSX_DMG = $(OSX_VOLNAME).dmg
 OSX_BACKGROUND_SVG=background.svg
 OSX_BACKGROUND_IMAGE=background.tiff
@@ -90,7 +90,7 @@ $(OSX_APP)/Contents/MacOS/TDC-Qt: $(BITCOIN_QT_BIN)
 
 $(OSX_APP)/Contents/Resources/Base.lproj/InfoPlist.strings:
 	$(MKDIR_P) $(@D)
-	echo '{	CFBundleDisplayName = "$(PACKAGE_NAME)"; CFBundleName = "$(PACKAGE_NAME)"; }' > $@
+	echo '{	CFBundleDisplayName = "True Crypto OSS"; CFBundleName = "$(PACKAGE_NAME)"; }' > $@
 
 OSX_APP_BUILT=$(OSX_APP)/Contents/PkgInfo $(OSX_APP)/Contents/Resources/empty.lproj \
   $(OSX_APP)/Contents/Resources/bitcoin.icns $(OSX_APP)/Contents/Info.plist \
