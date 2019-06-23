@@ -136,10 +136,16 @@ public:
         assert(hashGenesisBlock == uint256("0x000005bf455627f9a90f76775ba78b1bec3266bb32bd839d0b355f00ce8998ad"));
         assert(genesis.hashMerkleRoot == uint256("0x2e5e99f5129fb2b564d4bd997b82e181fd3b2c07f7246117418fa62af8ecd80f"));
 		
-	vSeeds.push_back(CDNSSeedData("s1.trafficdatacoin.io", "s1.trafficdatacoin.io"));
-	vSeeds.push_back(CDNSSeedData("s2.trafficdatacoin.io", "s2.trafficdatacoin.io"));
-	vSeeds.push_back(CDNSSeedData("s3.trafficdatacoin.io", "s3.trafficdatacoin.io"));
-
+	    vSeeds.push_back(CDNSSeedData("node1.truedividendcrypto.org", "node1.truedividendcrypto.org"));
+	    vSeeds.push_back(CDNSSeedData("node2.truedividendcrypto.org", "node2.truedividendcrypto.org"));
+	    vSeeds.push_back(CDNSSeedData("node3.truedividendcrypto.org", "node3.truedividendcrypto.org"));
+        vSeeds.push_back(CDNSSeedData("node4.truedividendcrypto.org", "node4.truedividendcrypto.org"));
+        vSeeds.push_back(CDNSSeedData("node5.truedividendcrypto.org", "node5.truedividendcrypto.org"));
+        vSeeds.push_back(CDNSSeedData("node6.truedividendcrypto.org", "node6.truedividendcrypto.org"));
+        vSeeds.push_back(CDNSSeedData("node7.truedividendcrypto.org", "node7.truedividendcrypto.org"));
+        vSeeds.push_back(CDNSSeedData("node8.truedividendcrypto.org", "node8.truedividendcrypto.org"));
+        vSeeds.push_back(CDNSSeedData("node9.truedividendcrypto.org", "node9.truedividendcrypto.org"));
+        vSeeds.push_back(CDNSSeedData("node10.truedividendcrypto.org", "node10.truedividendcrypto.org"));
 		
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 127);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 20);
