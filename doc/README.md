@@ -22,14 +22,12 @@ Unpack the files into a directory, and then run tdc-qt.exe.
 
 ### OSX
 
-Drag TDC-Qt to your applications folder, and then run TDC-Qt.
+Drag TrueCrypto-OSS.app to your applications folder, and then run TrueCrypto-OSS.app.
 
 ### Need Help?
 
-* See the documentation at the [TDC Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
-for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1604893.0) or on the [TDC Forum](https://google.forum.com/).
-* Join one of our Slack groups [TDC Slack Groups](https://google.slack.com/).
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=xxxxxx).
+* Join our [Discord](https://discord_invite_here).
 
 Building
 ---------------------
@@ -52,11 +50,6 @@ The truecrypto-oss repo's [root README](https://github.com/truedividendcryptocur
 - [Unauthenticated REST Interface](REST-interface.md)
 - [Dnsseed Policy](dnsseed-policy.md)
 
-### Resources
-
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1604893.0) or the [TDC](https://google.forum.com/) forum.
-* Join the [TDC-Dev](https://google.slack.com/) 
-
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)
 - [Files](files.md)
@@ -66,5 +59,6 @@ The truecrypto-oss repo's [root README](https://github.com/truedividendcryptocur
 License
 ---------------------
 Distributed under the [MIT/X11 software license](http://www.opensource.org/licenses/mit-license.php).
-This product includes software developed by the OpenSSL Project for use in the [OpenSSL Toolkit](https://www.openssl.org/). This product includes
-cryptographic software written by Eric Young ([eay@cryptsoft.com](mailto:eay@cryptsoft.com)), and UPnP software written by Thomas Bernard.
+This product includes software developed by the OpenSSL Project for use in the [OpenSSL Toolkit](https://www.openssl.org/).
+This product includes cryptographic software written by Eric Young ([eay@cryptsoft.com](mailto:eay@cryptsoft.com)),
+and UPnP software written by Thomas Bernard.

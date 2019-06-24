@@ -18,7 +18,7 @@ DNS seed. Any hosting services contracted by the operator are
 equally expected to uphold these expectations.
 
 1. The DNS seed results must consist exclusively of fairly selected and
-functioning TDC nodes from the public network to the best of the
+functioning True Crypto OSS nodes from the public network to the best of the
 operators understanding and capability.
 
 2. For the avoidance of doubt, the results may be randomized but must not
@@ -28,7 +28,7 @@ urgent technical necessity and disclosed.
 3. The results may not be served with a DNS TTL of less than one minute.
 
 4. Any logging of DNS queries should be only that which is necessary
-for the operation of the service or urgent health of the TDC
+for the operation of the service or urgent health of the True Crypto OSS
 network and must not be retained longer than necessary or disclosed
 to any third party.
 
@@ -44,9 +44,8 @@ details of their operating practices.
 related to the DNS seed operation.
 
 If these expectations cannot be satisfied the operator should
-discontinue providing services and contact the active TDC
-Core development team as well as posting on the
-[TDC Forum](https://google.forum.com/).
+discontinue providing services and contact the active True Crypto OSS
+development team.
 
 Behavior outside of these expectations may be reasonable in some
 situations but should be discussed in public in advance.

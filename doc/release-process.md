@@ -1,10 +1,6 @@
 Release Process
 ====================
 
-Before every release candidate:
-
-* Update translations (ping Fuzzbawls on Slack) see [translation_process.md](https://github.com/TDCCRYPTO/TDC/blob/master/doc/translation_process.md#synchronising-translations).
-
 Before every minor and major release:
 
 * Update version in `configure.ac` (don't forget to set `CLIENT_VERSION_IS_RELEASE` to `true`)
@@ -258,6 +254,6 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 
   - Archive release notes for the new version to `doc/release-notes/` (branch `master` and branch of the release)
 
-  - Create a [new GitHub release](https://github.com/TDC-Project/TDC/releases/new) with a link to the archived release notes.
+  - Create a [new GitHub release](https://github.com/truedividendcryptocurrency/truecrypto-oss/releases/new) with a link to the archived release notes.
 
   - Celebrate

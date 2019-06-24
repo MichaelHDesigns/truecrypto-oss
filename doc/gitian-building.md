@@ -1,20 +1,20 @@
 Gitian building
 ================
 
-*Setup instructions for a gitian build of TDC using a Debian VM or physical system.*
+*Setup instructions for a gitian build of True Crypto OSS using a Debian VM or physical system.*
 
-Gitian is the deterministic build process that is used to build the TDC
+Gitian is the deterministic build process that is used to build the True Crypto OSS
 Core executables. It provides a way to be reasonably sure that the
 executables are really built from source on GitHub. It also makes sure that
 the same, tested dependencies are used and statically built into the executable.
 
-Multiple developers build the source code by following a specific descriptor
-("recipe"), cryptographically sign the result, and upload the resulting signature.
+Ideally, multiple developers build the source code by following a specific descriptor
+("recipe"), cryptographically sign the result, then upload the resulting signature.
 These results are compared and only if they match, the build is accepted and uploaded
-to tdc-crypto.com.
+for release.
 
-More independent gitian builders are needed, which is why I wrote this
-guide. It is preferred to follow these steps yourself instead of using someone else's
+More independent gitian builders are needed, which is this guide exists.
+It is preferred to follow these steps yourself instead of using someone else's
 VM image to avoid 'contaminating' the build.
 
 Table of Contents
@@ -282,7 +282,7 @@ Clone the git repositories for tdc and gitian and then checkout the tdc version 
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
 git clone https://github.com/truedividendcryptocurrency/truecrypto-oss.git
-cd tdc
+cd truecrypto-oss
 git checkout v${VERSION}
 cd ..
 ```
@@ -321,16 +321,16 @@ There will be a lot of warnings printed during build of the images. These can be
 Getting and building the inputs
 --------------------------------
 
-Follow the instructions in [doc/release-process.md](release-process.md) in the tdc repository
+Follow the instructions in [doc/release-process.md](release-process.md) in the truecrypto-oss repository
 under 'Fetch and build inputs' to install sources which require manual intervention. Also follow
 the next step: 'Seed the Gitian sources cache', which will fetch all necessary source files allowing
 for gitian to work offline.
 
-Building TDC
-----------------
+Building True Crypto OSS
+-------------------------
 
-To build TDC (for Linux, OSX and Windows) just follow the steps under 'perform
-gitian builds' in [doc/release-process.md](release-process.md) in the tdc repository.
+To build True Crypto OSS (for Linux, OSX and Windows) just follow the steps under 'perform
+gitian builds' in [doc/release-process.md](release-process.md) in the truecrypto-oss repository.
 
 This may take a long time as it also builds the dependencies needed for each descriptor.
 These dependencies will be cached after a successful build to avoid rebuilding them when possible.
@@ -403,11 +403,3 @@ in `gitian.sigs` to your signing machine and do
 
 This will create the `.sig` files that can be committed together with the `.assert` files to assert your
 gitian build.
-
-Uploading signatures (not yet implemented)
----------------------
-
-In the future it will be possible to push your signatures (both the `.assert` and `.assert.sig` files) to the
-[tdc/gitian.sigs](https://github.com/tdc-crypto/gitian.sigs/) repository, or if that's not possible to create a pull
-request.
-There will be an official announcement when this repository is online.

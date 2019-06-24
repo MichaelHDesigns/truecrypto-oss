@@ -11,7 +11,7 @@ When a "Transaction Lock" occurs the hash of the related transaction is broadcas
 * `zmqpubrawtxlock`: publishes the raw transaction when locked via InstantX
 * `zmqpubhashtxlock`: publishes the transaction hash when locked via InstantX
 
-This mechanism has been integrated into Bitcore-Node-TDC which allows for notification to be broadcast through Insight API in one of two ways:
+This mechanism has been integrated into Bitcore-Node-BTC which allows for notification to be broadcast through Insight API in one of two ways:
 * WebSocket: 
 * API: 
 

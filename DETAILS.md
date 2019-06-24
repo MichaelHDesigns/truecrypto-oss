@@ -1,10 +1,10 @@
-### Technical Details
+## Technical Details
 
 Originally launched and subsequently abandoned by its developers, <i>Traffic Data Coin</i> was taken over by the 
 community and repurposed as <b>True Dividend Crypto</b>. The True Crypto OSS client runs on top of the original
 TDC blockchain, enabling instant transactions, wallet balance staking, and masternode operations. 
 
-## Coin Specs
+### Coin Specs
 <table>
 <tr><td>Coin Name</td><td>True Dividend Crypto</td></tr>
 <tr><td>Coin Ticker</td><td>TDC</td></tr>
@@ -30,13 +30,13 @@ TDC blockchain, enabling instant transactions, wallet balance staking, and maste
 <tr><td>1</td><td>300,000 TDC</td><td>Premine to original developers</td></tr>
 </table>
 
-## PoW Rewards Breakdown
+### PoW Rewards Breakdown
 <table>
 <th>Block Height</th><th>Reward</th>
 <tr><td>2 - 14,001</td><td>1 TDC</td>
 </table>
 
-## PoS Rewards Breakdown
+### PoS Rewards Breakdown
 <table>
 <th>Block Height</th><th>Reward</th><th>Masternodes</th><th>Stakers</th>
 <tr><td>14,002 - 150,001</td><td>90 TDC</td><td>70% (63 TDC)</td><td>30% (27 TDC)</td></tr>
