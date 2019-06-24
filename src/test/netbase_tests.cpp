@@ -1,6 +1,6 @@
-// Copyright (c) 2012-2014 Bitcoin Developers
-// Copyright (c) 2014-2015 DASH Developers
-// Copyright (c) 2015-2018 PIVX Developers 
+// Copyright (c) 2012-2019 Bitcoin Developers
+// Copyright (c) 2014-2019 Dash Developers
+// Copyright (c) 2015-2019 PIVX Developers 
 // Copyright (c) 2018-2019 True Crypto OSS Community
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
