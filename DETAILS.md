@@ -1,8 +1,10 @@
 ## Technical Details
 
-Originally launched and subsequently abandoned by its developers, <i>Traffic Data Coin</i> was taken over by the 
+Originally launched and subsequently abandoned by its developers, <i>Traffic Data Coin</i> was taken over by the
 community and repurposed as <b>True Dividend Crypto</b>. The True Crypto OSS client runs on top of the original
-TDC blockchain, enabling instant transactions, wallet balance staking, and masternode operations. 
+TDC blockchain, enabling instant transactions, wallet balance staking, and masternode operations.
+
+For more information, please view our [website](https://truedividendcrypto.org), follow us on [Twitter](https://twitter.com/truedividends), and join our community on [Discord](https://discord.gg/5SABgCt).
 
 ### Coin Specs
 <table>

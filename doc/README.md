@@ -27,7 +27,7 @@ Drag TrueCrypto-OSS.app to your applications folder, and then run TrueCrypto-OSS
 ### Need Help?
 
 * Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=xxxxxx).
-* Join our [Discord](https://discord_invite_here).
+* Join our [Discord](https://discord.gg/5SABgCt).
 
 Building
 ---------------------
