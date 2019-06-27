@@ -136,6 +136,7 @@ public:
         assert(hashGenesisBlock == uint256("0x000005bf455627f9a90f76775ba78b1bec3266bb32bd839d0b355f00ce8998ad"));
         assert(genesis.hashMerkleRoot == uint256("0x2e5e99f5129fb2b564d4bd997b82e181fd3b2c07f7246117418fa62af8ecd80f"));
 		
+        vSeeds.push_back(CDNSSeedData("seeder.truedividendcrypto.org", "seeder.truedividendcrypto.org"));
 	    vSeeds.push_back(CDNSSeedData("node1.truedividendcrypto.org", "node1.truedividendcrypto.org"));
 	    vSeeds.push_back(CDNSSeedData("node2.truedividendcrypto.org", "node2.truedividendcrypto.org"));
 	    vSeeds.push_back(CDNSSeedData("node3.truedividendcrypto.org", "node3.truedividendcrypto.org"));
