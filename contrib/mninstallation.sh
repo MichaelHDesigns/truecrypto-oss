@@ -4,7 +4,7 @@
 
 TMP_FOLDER=$(mktemp -d)
 CONFIG_FILE='tdc.conf'
-CONFIGFOLDER='/root/.tdc'
+CONFIG_FOLDER='/root/.tdc'
 COIN_DAEMON='tdcd'
 COIN_CLI='tdc-cli'
 COIN_PATH='/usr/local/bin/'
@@ -21,7 +21,8 @@ NC='\033[0m'
 OS_VERSION='unsupported'
 
 function compile_node() {
-  echo -e "Preparing to compile $COIN_NAME ...${RED}WARNING:${NC} this may take a long time..."
+  echo -e "Preparing to compile $COIN_NAME..."
+  echo -e "${RED}WARNING:${NC} this may take a long time..."
   git clone $COIN_REPO $TMP_FOLDER >/dev/null 2>&1
   compile_error
   cd $TMP_FOLDER
@@ -56,10 +57,10 @@ User=root
 Group=root
 
 Type=forking
-#PIDFile=$CONFIGFOLDER/$COIN_NAME.pid
+#PIDFile=$CONFIG_FOLDER/$COIN_NAME.pid
 
-ExecStart=$COIN_PATH$COIN_DAEMON -daemon -conf=$CONFIGFOLDER/$CONFIG_FILE -datadir=$CONFIGFOLDER
-ExecStop=-$COIN_PATH$COIN_CLI -conf=$CONFIGFOLDER/$CONFIG_FILE -datadir=$CONFIGFOLDER stop
+ExecStart=$COIN_PATH$COIN_DAEMON -daemon -conf=$CONFIG_FOLDER/$CONFIG_FILE -datadir=$CONFIG_FOLDER
+ExecStop=-$COIN_PATH$COIN_CLI -conf=$CONFIG_FOLDER/$CONFIG_FILE -datadir=$CONFIG_FOLDER stop
 
 Restart=always
 PrivateTmp=true
@@ -88,10 +89,10 @@ EOF
 
 
 function create_config() {
-  mkdir $CONFIGFOLDER >/dev/null 2>&1
+  mkdir $CONFIG_FOLDER >/dev/null 2>&1
   RPCUSER=$(tr -cd '[:alnum:]' < /dev/urandom | fold -w10 | head -n1)
   RPCPASSWORD=$(tr -cd '[:alnum:]' < /dev/urandom | fold -w22 | head -n1)
-  cat << EOF > $CONFIGFOLDER/$CONFIG_FILE
+  cat << EOF > $CONFIG_FOLDER/$CONFIG_FILE
 rpcuser=$RPCUSER
 rpcpassword=$RPCPASSWORD
 rpcallowip=127.0.0.1
@@ -128,8 +129,8 @@ function create_key() {
 
 
 function update_config() {
-  sed -i 's/daemon=1/daemon=0/' $CONFIGFOLDER/$CONFIG_FILE
-  cat << EOF >> $CONFIGFOLDER/$CONFIG_FILE
+  sed -i 's/daemon=1/daemon=0/' $CONFIG_FOLDER/$CONFIG_FILE
+  cat << EOF >> $CONFIG_FOLDER/$CONFIG_FILE
 logintimestamps=1
 maxconnections=256
 #bind=$NODEIP
@@ -288,7 +289,7 @@ function important_information() {
   echo
   echo -e "================================================================================================================================"
   echo -e "$COIN_NAME masternode is online and listening for connections on port ${RED}$COIN_PORT${NC}."
-  echo -e "Configuration file is: ${RED}$CONFIGFOLDER/$CONFIG_FILE${NC}"
+  echo -e "Configuration file is: ${RED}$CONFIG_FOLDER/$CONFIG_FILE${NC}"
   echo -e "Start: ${RED}systemctl start $COIN_NAME.service${NC}"
   echo -e "Stop: ${RED}systemctl stop $COIN_NAME.service${NC}"
   echo -e "VPS IP:PORT ${RED}$NODEIP:$COIN_PORT${NC}"
