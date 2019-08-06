@@ -223,7 +223,7 @@ Value stop(const Array& params, bool fHelp)
             "\nStop TDC server.");
     // Shutdown will take long enough that the response should get back
     StartShutdown();
-    return "TDC server stopping";
+    return "True Crypto OSS server stopping";
 }
 
 
