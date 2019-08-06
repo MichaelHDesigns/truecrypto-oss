@@ -321,7 +321,7 @@ There will be a lot of warnings printed during build of the images. These can be
 Getting and building the inputs
 --------------------------------
 
-Follow the instructions in [doc/release-process.md](release-process.md) in the truecrypto-oss repository
+Follow the instructions in [docs/release-process.md](release-process.md) in the truecrypto-oss repository
 under 'Fetch and build inputs' to install sources which require manual intervention. Also follow
 the next step: 'Seed the Gitian sources cache', which will fetch all necessary source files allowing
 for gitian to work offline.
@@ -330,7 +330,7 @@ Building True Crypto OSS
 -------------------------
 
 To build True Crypto OSS (for Linux, OSX and Windows) just follow the steps under 'perform
-gitian builds' in [doc/release-process.md](release-process.md) in the truecrypto-oss repository.
+gitian builds' in [docs/release-process.md](release-process.md) in the truecrypto-oss repository.
 
 This may take a long time as it also builds the dependencies needed for each descriptor.
 These dependencies will be cached after a successful build to avoid rebuilding them when possible.

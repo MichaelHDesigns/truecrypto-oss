@@ -30,10 +30,10 @@ Once you've got the right hardware and software:
     bin/make-base-vm --suite trusty --arch amd64
     cd ..
 
-    # Get inputs (see doc/release-process.md for exact inputs needed and where to get them)
+    # Get inputs (see docs/release-process.md for exact inputs needed and where to get them)
     ...
 
-    # For further build instructions see doc/release-notes.md
+    # For further build instructions see docs/release-notes.md
     ...
 
 ---------------------

@@ -36,7 +36,7 @@ completely stable. [Tags](https://github.com/truedividendcrypto/truecrypto-oss/t
 regularly to indicate new official, stable release versions of True Crypto OSS.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md)
-and useful hints for developers can be found in [doc/developer-notes.md](doc/developer-notes.md).
+and useful hints for developers can be found in [docs/developer-notes.md](docs/developer-notes.md).
 
 ### Automated Testing
 
