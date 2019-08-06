@@ -397,7 +397,7 @@ Value sendmessage(const Array& params, bool fHelp)
             "\nSend an message to a given address.\n" +
             HelpRequiringPassphrase() +
             "\nArguments:\n"
-            "1. \"message\"     (string, required) The amount in btc to send. eg 0.1\n"
+            "1. \"message\"     (string, required) The amount in tdc to send. eg 0.1\n"
             "\nResult:\n"
             "\"transactionid\"  (string) The transaction id.\n"
             "\nExamples:\n" +

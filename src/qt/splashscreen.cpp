@@ -34,7 +34,7 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle* networkStyle) 
 
     // define text to place
     QString titleText = tr("True Crypto OSS");
-    QString versionText = tr("v1.0.3");
+    QString versionText = tr("v1.1.0");
     QString copyrightTextBTC = QChar(0xA9) + QString(" 2009-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("Bitcoin Developers"));
     QString copyrightTextDASH = QChar(0xA9) + QString(" 2014-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("Dash Developers"));
     QString copyrightTextPIVX = QChar(0xA9) + QString(" 2015-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("PIVX Developers"));
