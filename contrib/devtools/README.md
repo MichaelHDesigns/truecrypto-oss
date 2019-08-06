@@ -91,4 +91,4 @@ It will do the following automatically:
 - post-process them into valid and committable format
 - add missing translations to the build system (TODO)
 
-See doc/translation-process.md for more information.
+See docs/translation-process.md for more information.

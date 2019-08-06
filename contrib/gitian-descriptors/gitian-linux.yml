@@ -1,5 +1,5 @@
 ---
-name: "tdc-linux-2.3"
+name: "tdc-linux-1.1.0"
 enable_cache: true
 suites:
 - "trusty"

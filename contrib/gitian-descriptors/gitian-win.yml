@@ -1,5 +1,5 @@
 ---
-name: "tdc-win-2.3"
+name: "tdc-win-1.1.0"
 enable_cache: true
 suites:
 - "trusty"
