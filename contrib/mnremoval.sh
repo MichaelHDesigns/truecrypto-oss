@@ -1,6 +1,6 @@
 #!/bin/bash
 # truecrypto-oss auto uninstaller for mninstallation script
-# https://raw.githubusercontent.com/truedividendcryptocurrency/truecrypto-oss/development/contrib/mnremoval.sh
+# https://raw.githubusercontent.com/truedividendcryptocurrency/truecrypto-oss/master/contrib/mnremoval.sh
 
 CONFIG_FOLDER='/root/.tdc'
 COIN_DAEMON='tdcd'

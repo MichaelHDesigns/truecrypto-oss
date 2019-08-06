@@ -1,6 +1,6 @@
 #!/bin/bash
 # truecrypto-oss installer for TDC blockchain
-# https://raw.githubusercontent.com/truedividendcryptocurrency/truecrypto-oss/development/contrib/mninstallation.sh
+# https://raw.githubusercontent.com/truedividendcryptocurrency/truecrypto-oss/master/contrib/mninstallation.sh
 
 TMP_FOLDER=$(mktemp -d)
 CONFIG_FILE='tdc.conf'
