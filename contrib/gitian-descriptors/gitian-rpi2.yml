@@ -1,5 +1,5 @@
 ---
-name: "tdc-rpi2-2.1.7"
+name: "tdc-rpi2-1.1"
 enable_cache: true
 suites:
 - "trusty"

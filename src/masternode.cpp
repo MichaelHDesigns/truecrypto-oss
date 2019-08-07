@@ -419,7 +419,7 @@ bool CMasternodeBroadcast::Create(std::string strService, std::string strKeyMast
             return false;
         }
     } else if (service.GetPort() == mainnetDefaultPort) {
-        strErrorRet = strprintf("Invalid port %u for masternode %s, %d is the only supported on mainnet.", service.GetPort(), strService, mainnetDefaultPort);
+        strErrorRet = strprintf("Invalid port %u for masternode %s, %d is only supported on mainnet.", service.GetPort(), strService, mainnetDefaultPort);
         LogPrintf("CMasternodeBroadcast::Create -- %s\n", strErrorRet);
         return false;
     }
