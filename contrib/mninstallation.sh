@@ -310,9 +310,9 @@ function important_information() {
 function setup_node() {
   get_ip
   create_config
+  download_bootstrap
   create_key
   update_config
-  download_bootstrap
   enable_firewall
   important_information
   configure_systemd
