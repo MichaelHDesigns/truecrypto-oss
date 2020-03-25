@@ -28,6 +28,12 @@ Common `host-platform-triplets` for cross compilation are:
 
 No other options are needed, the paths are automatically configured.
 
+For MacOSX cross compilation, the MacOSX10.11.sdk is required to be present in the /depends/SDKs folder.
+
+You must also make sure `python-setuptools` are installed, for example:
+
+    sudo apt-get install python-setuptools
+
 Dependency Options:
 The following can be set when running make: make FOO=bar
 

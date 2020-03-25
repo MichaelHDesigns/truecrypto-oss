@@ -119,3 +119,13 @@ Other commands:
     ./tdcd -daemon # to start the tdc daemon.
     ./tdc-cli --help  # for a list of command-line options.
     ./tdc-cli help    # When the daemon is running, to get a list of RPC commands
+
+Cross compile from Ubuntu:
+-------
+
+For some reason, `Q_OS_MAC` is not get correctly defined without `CONFIG_SITE`:
+
+    ./autogen.sh
+    CONFIG_SITE=`pwd`/depends/x86_64-apple-darwin11/share/config.site
+    ./configure --prefix=`pwd`/depends/x86_64-apple-darwin11
+    make
