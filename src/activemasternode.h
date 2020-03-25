@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2019 Bitcoin Developers
-// Copyright (c) 2015-2019 Dash Developers
+// Copyright (c) 2009-2020 Bitcoin Developers
+// Copyright (c) 2015-2020 Dash Developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #ifndef ACTIVEMASTERNODE_H

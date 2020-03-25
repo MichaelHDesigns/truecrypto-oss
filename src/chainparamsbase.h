@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2019 Bitcoin Developers
+// Copyright (c) 2014-2020 Bitcoin Developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 

@@ -4223,7 +4223,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>DASH Developers</source>
+        <source>Dash Developers</source>
         <translation type="unfinished"></translation>
     </message><message>
         <location line="+1"/>
@@ -5478,7 +5478,7 @@ for example: alertnotify=echo %%s | mail -s &quot;TDC Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2014-%i DASH Developers</source>
+        <source>Copyright (C) 2014-%i Dash Developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

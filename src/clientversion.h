@@ -1,4 +1,4 @@
-// Copyright (c) 2009-2019 Bitcoin Developers
+// Copyright (c) 2009-2020 Bitcoin Developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -26,7 +26,7 @@
  * Copyright year (2009-this)
  * Todo: update this when changing our copyright comments in the source
  */
-#define COPYRIGHT_YEAR 2019
+#define COPYRIGHT_YEAR 2020
 
 #endif //HAVE_CONFIG_H
 
@@ -38,7 +38,7 @@
 #define DO_STRINGIZE(X) #X
 
 //! Copyright string used in Windows .rc files
-#define COPYRIGHT_STR "2009-" STRINGIZE(COPYRIGHT_YEAR) " Bitcoin Developers, 2014-" STRINGIZE(COPYRIGHT_YEAR) " DASH Developers, 2015-" STRINGIZE(COPYRIGHT_YEAR) " PIVX Developers, 2018-" STRINGIZE(COPYRIGHT_YEAR) " True Crypto OSS Community"
+#define COPYRIGHT_STR "2009-" STRINGIZE(COPYRIGHT_YEAR) " Bitcoin Developers, 2014-" STRINGIZE(COPYRIGHT_YEAR) " Dash Developers, 2015-" STRINGIZE(COPYRIGHT_YEAR) " PIVX Developers, 2018-" STRINGIZE(COPYRIGHT_YEAR) " True Crypto OSS Community"
 
 /**
  * tdcd-res.rc includes this file, but it cannot cope with real c++ code.
