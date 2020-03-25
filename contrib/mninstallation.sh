@@ -11,6 +11,7 @@ COIN_PATH='/usr/local/bin/'
 COIN_REPO='https://github.com/truedividendcryptocurrency/truecrypto-oss.git'
 COIN_NAME='truecrypto-oss'
 COIN_PORT=17281
+BOOTSTRAP_DOWNLOAD='https://github.com/truedividendcryptocurrency/truecrypto-blockchain-bootstrap/releases/download/628800/bootstrap.dat'
 
 NODEIP=$(curl -s4 icanhazip.com)
 
@@ -88,6 +89,12 @@ EOF
 }
 
 
+function download_bootstrap() {
+	cd $CONFIG_FOLDER
+	wget $BOOTSTRAP_DOWNLOAD
+}
+
+
 function create_config() {
   mkdir $CONFIG_FOLDER >/dev/null 2>&1
   RPCUSER=$(tr -cd '[:alnum:]' < /dev/urandom | fold -w10 | head -n1)
@@ -99,6 +106,7 @@ rpcallowip=127.0.0.1
 listen=1
 server=1
 daemon=1
+txindex=1
 port=$COIN_PORT
 EOF
 }
@@ -302,6 +310,7 @@ function important_information() {
 function setup_node() {
   get_ip
   create_config
+  download_bootstrap
   create_key
   update_config
   enable_firewall
