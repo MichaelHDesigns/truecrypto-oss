@@ -11,7 +11,7 @@ COIN_PATH='/usr/local/bin/'
 COIN_REPO='https://github.com/truedividendcryptocurrency/truecrypto-oss.git'
 COIN_NAME='truecrypto-oss'
 COIN_PORT=17281
-BOOTSTRAP_DOWNLOAD='https://github.com/truedividendcryptocurrency/truecrypto-blockchain-bootstrap/releases/download/628800/bootstrap.dat'
+BOOTSTRAP_DOWNLOAD='https://github.com/truedividendcryptocurrency/truecrypto-blockchain-bootstrap/releases/latest/download/bootstrap.dat'
 
 NODEIP=$(curl -s4 icanhazip.com)
 
