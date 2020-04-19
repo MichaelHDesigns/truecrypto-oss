@@ -19,20 +19,20 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 if [ -n "$(pidof $COIN_DAEMON)" ] || [ -e "$COIN_DAEMON" ] || [ -e "/etc/systemd/system/$COIN_NAME.service" ]; then
-  echo -e "Stopping $COIN_NAME masternode service..."
+  echo -e "Stopping ${GREEN}$COIN_NAME${NC} masternode service..."
   systemctl stop $COIN_NAME.service
-  echo -e "Removing $COIN_NAME masternode service..."
+  echo -e "Removing ${GREEN}$COIN_NAME${NC} masternode service..."
   systemctl disable $COIN_NAME.service >/dev/null 2>&1
   rm /etc/systemd/system/$COIN_NAME.service
   systemctl daemon-reload
   sleep 3
-  echo -e "Deleting $COIN_NAME binaries..."
+  echo -e "Deleting ${GREEN}$COIN_NAME${NC} binaries..."
   rm $COIN_PATH$COIN_DAEMON
   rm $COIN_PATH$COIN_CLI
   rm $COIN_PATH$COIN_TX
   echo -e "${GREEN}Done!${NC}"
   exit 0
 else
-  echo -e "Cannot find ${RED}$COIN_NAME installation.${NC}"
+  echo -e "${RED}Cannot find ${GREEN}$COIN_NAME${RED} installation.${NC}"
   exit 1
 fi

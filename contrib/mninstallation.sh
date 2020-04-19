@@ -7,11 +7,13 @@ CONFIG_FILE='tdc.conf'
 CONFIG_FOLDER='/root/.tdc'
 COIN_DAEMON='tdcd'
 COIN_CLI='tdc-cli'
+COIN_TX='tdc-tx'
 COIN_PATH='/usr/local/bin/'
 COIN_REPO='https://github.com/truedividendcryptocurrency/truecrypto-oss.git'
 COIN_TAG='v1.1.1'
 COIN_NAME='truecrypto-oss'
 COIN_PORT=17281
+COIN_DOWNLOAD='https://github.com/truedividendcryptocurrency/truecrypto-oss/releases/latest/download/tdc-cmd-gnu64.zip'
 BOOTSTRAP_DOWNLOAD='https://github.com/truedividendcryptocurrency/truecrypto-blockchain-bootstrap/releases/latest/download/bootstrap.dat'
 
 NODEIP=$(curl -s4 icanhazip.com)
@@ -21,9 +23,54 @@ GREEN='\033[0;32m'
 NC='\033[0m'
 
 OS_VERSION='unsupported'
+OS_DEPLOY='download'
+
+
+function config_install() {
+  echo -e "Installation script for ${GREEN}$COIN_NAME${NC} masternode..."
+  echo
+  echo -e "Would you like to:"
+  echo -e "(D)OWNLOAD pre-compiled binaries (default)"
+  echo -e "   or"
+  echo -e "(C)OMPILE from source"
+  echo
+  echo -e "Type the letter of the option you want to select and press ENTER"
+  read -ep ": " -i "D" COMPILE
+  clear
+  if [[ $COMPILE == "C"  || $COMPILE == "c" ]]; then
+    OS_DEPLOY='compile'
+  fi
+}
+
+
+function prepare_node() {
+  if [ $OS_DEPLOY == "download" ]; then
+    download_node
+  elif [ $OS_DEPLOY == "compile" ]; then
+    compile_node
+  else
+    echo -e "${RED}Failed to configure $COIN_NAME. Please investigate.${NC}"
+    exit 1
+  fi
+}
+
+
+function download_node() {
+  echo -e "Downloading ${GREEN}$COIN_NAME${NC} binaries..."
+  cd $TMP_FOLDER
+  wget -nv --show-progress $COIN_DOWNLOAD -O file.zip
+  unzip file.zip
+  clear
+  echo -e "Moving $COIN_NAME binaries to $COIN_PATH ..."
+  mv $COIN_DAEMON $COIN_PATH
+  mv $COIN_CLI $COIN_PATH
+  mv $COIN_TX $COIN_PATH
+  clear
+}
+
 
 function compile_node() {
-  echo -e "Preparing to compile $COIN_NAME..."
+  echo -e "Preparing to compile ${GREEN}$COIN_NAME${NC}..."
   echo -e "${RED}WARNING:${NC} this may take a long time..."
   git clone $COIN_REPO $TMP_FOLDER >/dev/null 2>&1
   compile_error
@@ -91,8 +138,10 @@ EOF
 
 
 function download_bootstrap() {
+  echo -e "Downloading ${GREEN}$COIN_NAME${NC} bootstrap..."
 	cd $CONFIG_FOLDER
-	wget $BOOTSTRAP_DOWNLOAD
+	wget -nv --show-progress $BOOTSTRAP_DOWNLOAD
+  clear
 }
 
 
@@ -171,7 +220,7 @@ function get_ip() {
 
   if [ ${#NODE_IPS[@]} -gt 1 ]
     then
-      echo -e "${GREEN}More than one IP. Please type 0 to use the first IP, 1 for the second and so on...${NC}"
+      echo -e "${GREEN}Found more than one IP. Please type 0 to use the first IP, 1 for the second and so on...${NC}"
       INDEX=0
       for ip in "${NODE_IPS[@]}"
       do
@@ -189,7 +238,7 @@ function get_ip() {
 function compile_error() {
   if [ "$?" -gt "0" ];
   then
-    echo -e "${RED}Failed to compile $COIN_NAME. Please investigate.${NC}"
+    echo -e "${RED}Failed to compile ${GREEN}$COIN_NAME${RED}. Please investigate.${NC}"
     exit 1
   fi
 }
@@ -215,7 +264,7 @@ function checks() {
   fi
 
   if [ -n "$(pidof $COIN_DAEMON)" ] || [ -e "$COIN_DAEMON" ]; then
-    echo -e "${RED}$COIN_NAME is already installed.${NC}"
+    echo -e "${GREEN}$COIN_NAME${RED} is already installed.${NC}"
     exit 1
   fi
 }
@@ -226,7 +275,25 @@ function prepare_system() {
   apt-get update >/dev/null 2>&1
   DEBIAN_FRONTEND=noninteractive apt-get update > /dev/null 2>&1
   DEBIAN_FRONTEND=noninteractive apt-get -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" -y -qq upgrade >/dev/null 2>&1
-  apt install -y software-properties-common >/dev/null 2>&1
+  apt install -y software-properties-common unzip >/dev/null 2>&1
+
+  if [ $OS_DEPLOY == "compile" ]; then
+    prepare_compile
+  else
+    prepare_download
+  fi
+}
+
+
+function prepare_download() {
+  echo -e "${GREEN}Installing required packages, it may take some time to finish.${NC}"
+  apt-get update >/dev/null 2>&1
+
+  clear
+}
+
+
+function prepare_compile() {
   echo -e "${GREEN}Adding bitcoin PPA repository..."
   apt-add-repository -y ppa:bitcoin/bitcoin >/dev/null 2>&1
   echo -e "Installing required packages, it may take some time to finish.${NC}"
@@ -271,7 +338,7 @@ function prepare_system() {
 
 
 function create_swap() {
-  echo -e "Checking if swap space is needed..."
+  echo -e "Checking if swap space is needed...${NC}"
   PHYMEM=$(free -g|awk '/^Mem:/{print $2}')
   SWAP=$(free -g|awk '/^Swap:/{print $2}')
   if [ "$PHYMEM" -lt "2" ]; then
@@ -323,7 +390,8 @@ function setup_node() {
 ##### Main #####
 clear
 checks
+config_install
 prepare_system
 create_swap
-compile_node
+prepare_node
 setup_node
