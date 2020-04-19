@@ -9,6 +9,7 @@ COIN_DAEMON='tdcd'
 COIN_CLI='tdc-cli'
 COIN_PATH='/usr/local/bin/'
 COIN_REPO='https://github.com/truedividendcryptocurrency/truecrypto-oss.git'
+COIN_TAG='v1.1.1'
 COIN_NAME='truecrypto-oss'
 COIN_PORT=17281
 BOOTSTRAP_DOWNLOAD='https://github.com/truedividendcryptocurrency/truecrypto-blockchain-bootstrap/releases/latest/download/bootstrap.dat'
@@ -27,7 +28,7 @@ function compile_node() {
   git clone $COIN_REPO $TMP_FOLDER >/dev/null 2>&1
   compile_error
   cd $TMP_FOLDER
-  git checkout latest >/dev/null 2>&1
+  git checkout $COIN_TAG >/dev/null 2>&1
   compile_error
   chmod +x ./autogen.sh 
   chmod +x ./share/genbuild.sh
