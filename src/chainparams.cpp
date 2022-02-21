@@ -76,18 +76,14 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
     // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-		(       0, uint256("0x000005bf455627f9a90f76775ba78b1bec3266bb32bd839d0b355f00ce8998ad"))
-        (  294288, uint256("0x51544d650e226fa7b81e1065437e4b2fc7b9df65f68753092af57015ebe68aef"))
-        (  617800, uint256("0x14098e020c469f0c19f1c43f626d78057e413bd526f0df1e5df7c98dcffb0353"))
-        (  625000, uint256("0x39920bf7616954e2da0c2dfc83007dba26e62814c62b4c4c967803365fad475d"))
-		;
+		(       0, uint256("0x000005bf455627f9a90f76775ba78b1bec3266bb32bd839d0b355f00ce8998ad"));
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
     1584918181, // * UNIX timestamp of last checkpoint block
-    1299571,          // * total number of transactions between genesis and last checkpoint
-                //   (the tx=... number in the SetBestChain debug.log lines)   
-    3000        // * estimated number of transactions per day after checkpoint
+    0,          // * total number of transactions between genesis and last checkpoint
+               //   (the tx=... number in the SetBestChain debug.log lines)   
+    250        // * estimated number of transactions per day after checkpoint
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
@@ -114,12 +110,12 @@ public:
         networkID = CBaseChainParams::MAIN;
         strNetworkID = "main";
 
-        pchMessageStart[0] = 0xA1;
-        pchMessageStart[1] = 0x31;
-        pchMessageStart[2] = 0xC2;
+        pchMessageStart[0] = 0xA7;
+        pchMessageStart[1] = 0xC5;
+        pchMessageStart[2] = 0xD2;
         pchMessageStart[3] = 0xA1;
         vAlertPubKey = ParseHex("04266db20be5c53b93678e2e41c9def7af38197280c65e813f682adf2ed501ac186022562dbdf2ce3204d07432660fb61ecad8e78b6b8d39c568fb892db8ecb736");
-        nDefaultPort = 17281;
+        nDefaultPort = 88888;
         bnProofOfWorkLimit = ~uint256(0) >> 20;
 		
         nSubsidyHalvingInterval = 210000;
@@ -130,12 +126,12 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60;
         nTargetSpacing = 1 * 60;
-        nLastPOWBlock = 400;
-        nMaturity = 101;
+        nLastPOWBlock = 100;
+        nMaturity = 6;
         nMasternodeCountDrift = 20;
-        nMasternodeColleteralLimxDev = 5000;
+        nMasternodeColleteralLimxDev = 200;
         nModifierUpdateBlock = 1;
-        nMaxMoneyOut = 300000000 * COIN;
+        nMaxMoneyOut = 999999999999 * COIN;
 		
         genesis = CreateGenesisBlock(1547107989, 21114322, 0x1e0ffff0, 1, 0 * COIN);
 
@@ -144,19 +140,9 @@ public:
         assert(hashGenesisBlock == uint256("0x000005bf455627f9a90f76775ba78b1bec3266bb32bd839d0b355f00ce8998ad"));
         assert(genesis.hashMerkleRoot == uint256("0x2e5e99f5129fb2b564d4bd997b82e181fd3b2c07f7246117418fa62af8ecd80f"));
 		
-        vSeeds.push_back(CDNSSeedData("seeder.truedividendcrypto.org", "seeder.truedividendcrypto.org"));
-	    vSeeds.push_back(CDNSSeedData("node1.truedividendcrypto.org", "node1.truedividendcrypto.org"));
-	    vSeeds.push_back(CDNSSeedData("node2.truedividendcrypto.org", "node2.truedividendcrypto.org"));
-	    vSeeds.push_back(CDNSSeedData("node3.truedividendcrypto.org", "node3.truedividendcrypto.org"));
-        vSeeds.push_back(CDNSSeedData("node4.truedividendcrypto.org", "node4.truedividendcrypto.org"));
-        vSeeds.push_back(CDNSSeedData("node5.truedividendcrypto.org", "node5.truedividendcrypto.org"));
-        vSeeds.push_back(CDNSSeedData("node6.truedividendcrypto.org", "node6.truedividendcrypto.org"));
-        vSeeds.push_back(CDNSSeedData("node7.truedividendcrypto.org", "node7.truedividendcrypto.org"));
-        vSeeds.push_back(CDNSSeedData("node8.truedividendcrypto.org", "node8.truedividendcrypto.org"));
-        vSeeds.push_back(CDNSSeedData("node9.truedividendcrypto.org", "node9.truedividendcrypto.org"));
-        vSeeds.push_back(CDNSSeedData("node10.truedividendcrypto.org", "node10.truedividendcrypto.org"));
+        vSeeds.push_back(CDNSSeedData("159.223.150.209", "159.223.150.209"));
 		
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 127);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 25);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 20);
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 8);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
@@ -228,7 +214,7 @@ public:
     {
         networkID = CBaseChainParams::UNITTEST;
         strNetworkID = "unittest";
-        nDefaultPort = 51478;
+        nDefaultPort = 88111;
         vFixedSeeds.clear(); 
         vSeeds.clear();      
 
